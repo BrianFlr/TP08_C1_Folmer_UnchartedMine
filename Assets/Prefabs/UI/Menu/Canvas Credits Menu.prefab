@@ -185,8 +185,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dark Ages By Hypnobius
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -399,8 +399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Programming
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4198253edb742644996a56528638b03, type: 2}
+  m_sharedMaterial: {fileID: -2360659727168592588, guid: a4198253edb742644996a56528638b03, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -536,8 +536,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Forest By Liminal Games
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -673,8 +673,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Advice, Guidance, and Support
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -887,8 +887,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: User Interface
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1024,8 +1024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Art
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1238,8 +1238,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fonts
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1375,8 +1375,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Legacy Collection By Ansimuz
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1743,8 +1743,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae14b93669213a8448e687aadcc4ac07, type: 2}
+  m_sharedMaterial: {fileID: 5189627180294360679, guid: ae14b93669213a8448e687aadcc4ac07, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1768,15 +1768,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 32
   m_HorizontalAlignment: 32
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 8192
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1880,8 +1880,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Brian Folmer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f7f22e03052cdad47bde07651b9d07dd, type: 2}
+  m_sharedMaterial: {fileID: 5850949625549788935, guid: f7f22e03052cdad47bde07651b9d07dd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1905,8 +1905,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2017,8 +2017,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f3eee054bc4f9ee48940cb3c451401e0, type: 2}
-  m_sharedMaterial: {fileID: -1599199923898147760, guid: f3eee054bc4f9ee48940cb3c451401e0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a4198253edb742644996a56528638b03, type: 2}
+  m_sharedMaterial: {fileID: -2360659727168592588, guid: a4198253edb742644996a56528638b03, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2160,7 +2160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2fe2230e75dcf4541ac40b8809050b98, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1ea3d8e1cd8fcd4b864c53acc772fd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2237,8 +2237,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Background
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2374,8 +2374,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Federico Oliv\xE9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3534088073826116570, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95f21a96cb9842f42a119d47e923ab28, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2626,8 +2626,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 6370436135271955175, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
-    m_PressedSprite: {fileID: -827262886115361592, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 65214922f26e58742b8583547bd758ba, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: ca71aebdbdf772443b1b0f665dc5725a, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -2708,8 +2708,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gotfridus By GGBotNet
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
