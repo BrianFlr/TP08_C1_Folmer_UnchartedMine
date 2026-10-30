@@ -32,7 +32,7 @@ public class PlayerThrowAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown((int)playerData.throwProjectile))
+        if (Input.GetMouseButtonDown((int)playerData.meleeAttack))
         {
             if (Time.time >= daggerNextThrowTime)
             {

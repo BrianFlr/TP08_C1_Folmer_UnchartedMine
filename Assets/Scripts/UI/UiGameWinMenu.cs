@@ -23,10 +23,10 @@ public class UiGameWinMenu : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.GetIsGameWinState())
+        /*if (GameManager.Instance.GetIsGameWinState())
         {
             GameWin();
-        }
+        }*/
     }
 
     private void OnDestroy()

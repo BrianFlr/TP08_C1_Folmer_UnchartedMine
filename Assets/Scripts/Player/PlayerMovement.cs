@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float playerSpeed = 0f;
     private float playerJumpForce = 0f;
-    private float rayCastLength = 0.80f;
+    private float rayCastLength = 0.45f;
     
     private bool isGround = false;
 

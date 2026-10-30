@@ -10,7 +10,7 @@ public class UiPlayerPoints : MonoBehaviour
 
     private void Awake()
     {
-        playerPoints.onPlayerPointsChange += ShowPlayerPoints;
+        //playerPoints.onPlayerPointsChange += ShowPlayerPoints;
     }
 
     private void OnDestroy()

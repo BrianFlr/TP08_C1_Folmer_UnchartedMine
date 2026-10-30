@@ -23,10 +23,10 @@ public class UiGameOverMenu : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.GetIsGameOverState())
+        /*if (GameManager.Instance.GetIsGameOverState())
         {
             GameOver();
-        }
+        }*/
     }
 
     private void OnDestroy()
