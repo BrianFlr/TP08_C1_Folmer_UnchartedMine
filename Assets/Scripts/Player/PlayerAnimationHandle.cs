@@ -2,26 +2,24 @@ using UnityEngine;
 
 public class PlayerAnimationHandle : MonoBehaviour
 {
-    [SerializeField] private Animator playerAnimator;
+    private AnimationChanger animatorChanger;
+    private PlayerMovement movement;
+    private PlayerMeleeAttack attack;
 
+    private const string 
 
-    private void Awake()
+    private void Start()
     {
-        
+        animatorChanger = GetComponent<AnimationChanger>();
+        movement = GetComponent<PlayerMovement>();
+        attack = GetComponent<PlayerMeleeAttack>();
     }
 
-    void Update()
+    private void Update()
     {
+        if (movement != null)
+        {
 
-    }
-
-    private void OnDestroy()
-    {
-
-    }
-
-    private void PlayAttackAnimation()
-    {
-
+        }
     }
 }
