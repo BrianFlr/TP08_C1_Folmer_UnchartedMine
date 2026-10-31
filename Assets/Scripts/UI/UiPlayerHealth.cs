@@ -10,17 +10,17 @@ public class UiPlayerHealth : MonoBehaviour
 
     private void Awake()
     {
-        playerHealth.onPlayerHealthChange += UpdateHealthBarFill;
+        //playerHealth.onPlayerHealthChange += UpdateHealthBarFill;
     }
 
     private void Start()
     {
-        maxHealth = playerHealth.GetMaxHealthValue();
+        //maxHealth = playerHealth.GetMaxHealthValue();
     }
 
     private void OnDestroy()
     {
-        playerHealth.onPlayerHealthChange -= UpdateHealthBarFill;
+        //playerHealth.onPlayerHealthChange -= UpdateHealthBarFill;
     }
 
     private void UpdateHealthBarFill()

@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerAnimationHandle : MonoBehaviour
 {
     private PlayerMovement movementScript;
-    private PlayerThrowAttack throwAttackScript;
+    private PlayerMeleeAttack throwAttackScript;
     [SerializeField] private Animator playerAnimator;
     private Rigidbody2D playerRb;
 
@@ -13,7 +13,7 @@ public class PlayerAnimationHandle : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody2D>();
         movementScript = GetComponent<PlayerMovement>();
-        throwAttackScript = GetComponent<PlayerThrowAttack>();
+        throwAttackScript = GetComponent<PlayerMeleeAttack>();
 
         //throwAttackScript.onPlayerAttack += PlayAttackAnimation;
     }

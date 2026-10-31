@@ -15,7 +15,7 @@ public class UiPlayerPoints : MonoBehaviour
 
     private void OnDestroy()
     {
-        playerPoints.onPlayerPointsChange += ShowPlayerPoints;
+        //playerPoints.onPlayerPointsChange += ShowPlayerPoints;
     }
 
     private void ShowPlayerPoints()

@@ -26,26 +26,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Creo un rayo en la posicion del player mirando hacia abajo que detecte cuándo colisiono con el layer Ground
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, rayCastLength, layerGround);
 
-        // Si el rayo colisiona con el layer de Ground va a ser true y en caso contrario, false
         isGround = hit.collider != null;
 
-        // Movimiento jugador
+        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+
         if (Input.GetKey(data.moveLeft))
         {
             rb.linearVelocity = new Vector2(-1 * playerSpeed, rb.linearVelocity.y);
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            RotatePlayer();
         }
 
         if (Input.GetKey(data.moveRight))
         {
             rb.linearVelocity = new Vector2(1 * playerSpeed, rb.linearVelocity.y);
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            RotatePlayer();
         }
 
-        // Si está en el suelo el player puede saltar
         if (isGround)
         {
             if (Input.GetKey(data.jump))
@@ -61,14 +59,13 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * rayCastLength);
     }
 
-    // Función para rotar al player.
     private void RotatePlayer()
     {
         if(rb.linearVelocityX < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
-        else
+        else if (rb.linearVelocityX > 0)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
