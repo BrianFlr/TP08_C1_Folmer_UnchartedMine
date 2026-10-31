@@ -4256,7 +4256,7 @@ GameObject:
   - component: {fileID: 1283276831}
   - component: {fileID: 1283276830}
   - component: {fileID: 1283276829}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyBat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4353,9 +4353,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1303377104}
   - component: {fileID: 1303377105}
+  - component: {fileID: 1303377106}
   - component: {fileID: 1303377103}
   - component: {fileID: 1303377102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4440,6 +4441,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1893213440}
+  - {fileID: 1706091021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1303377105
@@ -4458,6 +4460,24 @@ MonoBehaviour:
   layerGround:
     serializedVersion: 2
     m_Bits: 128
+--- !u!114 &1303377106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303377101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6499afba59265b442bf69482343c4286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMeleeAttack
+  playerData: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
+  enemiesMask:
+    serializedVersion: 2
+    m_Bits: 512
+  attackPoint: {fileID: 1706091021}
+  attackRadius: 0.3
 --- !u!1 &1314842544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4757,7 +4777,7 @@ GameObject:
   - component: {fileID: 1416655987}
   - component: {fileID: 1416655988}
   - component: {fileID: 1416655985}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyBlueGolem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4841,7 +4861,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.036592185, y: -0.03562033}
+  m_Offset: {x: 0.0027167797, y: -0.03562033}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4851,7 +4871,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3486482, y: 1.2612154}
+  m_Size: {x: 1.5845037, y: 1.2612154}
   m_EdgeRadius: 0
 --- !u!1 &1449171623
 GameObject:
@@ -5189,6 +5209,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1706091020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706091021}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706091021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706091020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.274, y: -0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1303377104}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1754940739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,7 +5509,7 @@ GameObject:
   - component: {fileID: 1818702821}
   - component: {fileID: 1818702820}
   - component: {fileID: 1818702819}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyOrangeGolem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5526,7 +5577,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.030810833, y: -0.27265704}
+  m_Offset: {x: 0.0035846233, y: -0.27265704}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5536,7 +5587,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.0539775, y: 1.8740423}
+  m_Size: {x: 2.3782783, y: 1.8740423}
   m_EdgeRadius: 0
 --- !u!4 &1818702821
 Transform:
