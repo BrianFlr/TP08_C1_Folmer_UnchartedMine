@@ -94,7 +94,7 @@ public class PlayerAnimationHandle : MonoBehaviour
     // Animación de muerte.
     private void PlayerDieAnimation()
     {
-        if (playerHealth.GetHealthValue() < 0)
+        if (playerHealth.GetHealthValue() <= 0)
         {
             isDie = true;
             ChangeAnimationState(PlayerAnimations.Die);

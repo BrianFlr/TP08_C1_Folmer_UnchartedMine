@@ -14,9 +14,10 @@ public class PlayerMeleeAttack : MonoBehaviour
 
     private bool isAttacking = false;
 
-    [SerializeField] private float attackRadius = 0.3f;
+    private float attackRadius = 0.3f;
     private float attackCooldown = 0f;
     private float nextAttackTime = 0f;
+    private float attackDamage = 0f;
 
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class PlayerMeleeAttack : MonoBehaviour
 
     private void Start()
     {
+        attackDamage = playerData.attackDamage;
         attackCooldown = playerData.attackCooldown;
     }
 
@@ -66,7 +68,16 @@ public class PlayerMeleeAttack : MonoBehaviour
         // Aplico el daño a los enemigos llamando su función de recibir daño.
         foreach (Collider2D enemyGameObject in enemies)
         {
-            Debug.Log("hit enemy");
+            EnemyOrangeGolemHealth orangeGolem = enemyGameObject.GetComponent<EnemyOrangeGolemHealth>();
+            SpriteRenderer enemySpriteRenderer = enemyGameObject.GetComponentInChildren<SpriteRenderer>();
+
+            if (orangeGolem != null)
+            {
+                orangeGolem.ReceiveDamage(attackDamage);
+                enemySpriteRenderer.color = new Color(1f,1f,0f);
+                enemySpriteRenderer.color = new Color(1f,1f,1f);
+            }
+          
         }
 
         isAttacking = false;
