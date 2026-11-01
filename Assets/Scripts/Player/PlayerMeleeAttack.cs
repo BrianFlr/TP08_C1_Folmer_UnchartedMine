@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMeleeAttack : MonoBehaviour
@@ -10,6 +11,8 @@ public class PlayerMeleeAttack : MonoBehaviour
     [SerializeField] private Transform attackPoint;
     private PlayerMovement PlayerMovement;
     private Rigidbody2D rb;
+
+    private bool isAttacking = false;
 
     [SerializeField] private float attackRadius = 0.3f;
     private float attackCooldown = 0f;
@@ -26,13 +29,14 @@ public class PlayerMeleeAttack : MonoBehaviour
         attackCooldown = playerData.attackCooldown;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (Time.time > nextAttackTime)
         {
             if (Input.GetMouseButtonDown((int)playerData.meleeAttack) && PlayerMovement.GetIsGroundState())
             {
-                PlayerAttack();
+                onPlayerAttack?.Invoke();
+                StartCoroutine(IsAttack());
             }
         }
     }
@@ -43,20 +47,28 @@ public class PlayerMeleeAttack : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.transform.position, attackRadius);
     }
 
-    private void PlayerAttack()
+    public bool GetAttackingState()
     {
-        onPlayerAttack?.Invoke();
+        return isAttacking;
+    }
 
+    // Ataque del jugador.
+    private IEnumerator IsAttack()
+    {
+        isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
 
+        yield return new WaitForSeconds(0.5f);
+
+        // Creo un collider para detectar todos los objetos que se encuentran dentro del collider al momento de golpear.
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, enemiesMask);
 
+        // Aplico el daño a los enemigos llamando su función de recibir daño.
         foreach (Collider2D enemyGameObject in enemies)
         {
             Debug.Log("hit enemy");
         }
+
+        isAttacking = false;
     }
-
-
-
 }

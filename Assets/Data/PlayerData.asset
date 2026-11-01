@@ -20,4 +20,4 @@ MonoBehaviour:
   speed: 4
   jumpForce: 8
   damage: 5
-  attackCooldown: 1
+  attackCooldown: 0.5

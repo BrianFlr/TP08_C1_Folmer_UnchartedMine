@@ -2,22 +2,40 @@ using UnityEngine;
 
 public class PlayerAnimationHandle : MonoBehaviour
 {
-    private AnimationChanger changer;
-    private PlayerMovement movement;
-    private PlayerMeleeAttack attack;
+    private AnimationChanger animatorChanger;
+    private PlayerMovement playerMovement;
+    private PlayerMeleeAttack playerAttack;
+    private PlayerHealth playerHealth;
     private Rigidbody2D rb;
 
     private void Start()
     {
-        changer = GetComponent<AnimationChanger>();
-        movement = GetComponent<PlayerMovement>();
-        attack = GetComponent<PlayerMeleeAttack>();
+        animatorChanger = GetComponent<AnimationChanger>();
+        playerMovement = GetComponent<PlayerMovement>();
+        playerAttack = GetComponent<PlayerMeleeAttack>();
+        playerHealth = GetComponent<PlayerHealth>();
+
         rb = GetComponent<Rigidbody2D>();
+
+        playerHealth.onPlayerHealthChange += PlayerHurt;
     }
 
     private void Update()
     {
-        if (movement.GetIsGroundState())
+        PlayerMove();
+        PlayerJumpOrFall();
+        PlayerAttack();
+    }
+
+    private void OnDestroy()
+    {
+        playerHealth.onPlayerHealthChange -= PlayerHurt;
+    }
+
+    // Animaciones de movimiento.
+    private void PlayerMove()
+    {
+        if (playerMovement.GetIsGroundState() && !playerAttack.GetAttackingState())
         {
             if (rb.linearVelocityX != 0)
             {
@@ -29,10 +47,30 @@ public class PlayerAnimationHandle : MonoBehaviour
             }
         }
 
-        if (rb.linearVelocityY != 0 && !movement.GetIsGroundState())
+    }
+
+    // Animacion de saltar y caer.
+    private void PlayerJumpOrFall()
+    {
+        if (rb.linearVelocityY != 0 && !playerMovement.GetIsGroundState())
         {
             ChangeAnimationState(PlayerAnimations.Jump);
         }
+    }
+
+    // Animacion de ataque a melee.
+    private void PlayerAttack()
+    {
+        if (playerAttack.GetAttackingState())
+        {
+            ChangeAnimationState(PlayerAnimations.Attack);
+        }
+    }
+
+    // Animación de daño.
+    private void PlayerHurt()
+    {
+        ChangeAnimationState(PlayerAnimations.Hurt);
     }
 
     private void ChangeAnimationState(PlayerAnimations actualAnimation)
@@ -40,25 +78,25 @@ public class PlayerAnimationHandle : MonoBehaviour
         switch (actualAnimation)
         {
             case PlayerAnimations.Idle:
-                changer.changeAnimationState("Miner-Idle");
+                animatorChanger.changeAnimationState("Miner-Idle");
                 break;
             case PlayerAnimations.Walk:
-                changer.changeAnimationState("Miner-Walk");
+                animatorChanger.changeAnimationState("Miner-Walk");
                 break;
             case PlayerAnimations.Jump:
-                changer.changeAnimationState("Miner-Jump");
+                animatorChanger.changeAnimationState("Miner-Jump");
                 break;
             case PlayerAnimations.Attack:
-                changer.changeAnimationState("Miner-Attack");
+                animatorChanger.changeAnimationState("Miner-Attack");
                 break;
             case PlayerAnimations.Dig:
-                changer.changeAnimationState("Miner-Dig");
+                animatorChanger.changeAnimationState("Miner-Dig");
                 break;
             case PlayerAnimations.Hurt:
-                changer.changeAnimationState("Miner-Hurt");
+                animatorChanger.changeAnimationState("Miner-Hurt");
                 break;
             case PlayerAnimations.Die:
-                changer.changeAnimationState("Miner-Die");
+                animatorChanger.changeAnimationState("Miner-Die");
                 break;
         }
     }

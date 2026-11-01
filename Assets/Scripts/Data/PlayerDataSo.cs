@@ -13,8 +13,8 @@ public class PlayerDataSo : ScriptableObject
 
     [Header("Stats")]
     [Range (1,150)]public float health = 100.0f;
-    [Range(3, 10)] public float speed = 4.0f;
-    [Range(3, 10)] public float jumpForce = 8.0f;
+    [Range(1, 10)] public float speed = 4.0f;
+    [Range(1, 10)] public float jumpForce = 8.0f;
     [Range(1, 10)] public float damage = 5.0f;
-    [Range(1, 10)] public float attackCooldown = 1f;
+    [Range(0.1f, 10f)] public float attackCooldown = 0.5f;
 }

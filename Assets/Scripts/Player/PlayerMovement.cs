@@ -5,17 +5,19 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private PlayerDataSo data;
     [SerializeField] private LayerMask layerGround;
+    private PlayerMeleeAttack playerAttack;
   
     private Rigidbody2D rb;
     private float playerSpeed = 0f;
     private float playerJumpForce = 0f;
-    private float rayCastLength = 0.42f;
+    private float rayCastLength = 0.45f;
     
     private bool isGround = false;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerAttack = GetComponent<PlayerMeleeAttack>();
     }
 
     private void Start()
@@ -32,23 +34,26 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
 
-        if (Input.GetKey(data.moveLeft))
+        if (!playerAttack.GetAttackingState())
         {
-            rb.linearVelocity = new Vector2(-1 * playerSpeed, rb.linearVelocity.y);
-            RotatePlayer();
-        }
-
-        if (Input.GetKey(data.moveRight))
-        {
-            rb.linearVelocity = new Vector2(1 * playerSpeed, rb.linearVelocity.y);
-            RotatePlayer();
-        }
-
-        if (isGround)
-        {
-            if (Input.GetKey(data.jump))
+            if (Input.GetKey(data.moveLeft))
             {
-                rb.linearVelocity = new Vector2(0, 1) * playerJumpForce;
+                rb.linearVelocity = new Vector2(-1 * playerSpeed, rb.linearVelocity.y);
+                RotatePlayer();
+            }
+
+            if (Input.GetKey(data.moveRight))
+            {
+                rb.linearVelocity = new Vector2(1 * playerSpeed, rb.linearVelocity.y);
+                RotatePlayer();
+            }
+
+            if (isGround)
+            {
+                if (Input.GetKey(data.jump))
+                {
+                    rb.linearVelocity = new Vector2(0, 1) * playerJumpForce;
+                }
             }
         }
     }

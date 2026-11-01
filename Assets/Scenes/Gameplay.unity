@@ -4460,6 +4460,7 @@ GameObject:
   - component: {fileID: 1303377104}
   - component: {fileID: 1303377105}
   - component: {fileID: 1303377106}
+  - component: {fileID: 1303377109}
   - component: {fileID: 1303377108}
   - component: {fileID: 1303377107}
   - component: {fileID: 1303377103}
@@ -4486,7 +4487,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4610,6 +4611,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecad8c3b364667947afa78fde1151bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationChanger
+--- !u!114 &1303377109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303377101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa85c2dadc280bb4ab685ec1c36dc32e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  playerData: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
 --- !u!1 &1314842544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,7 +5743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818702818}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 2.21015, y: -2.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5737,7 +5751,7 @@ Transform:
   - {fileID: 1183483969}
   - {fileID: 1181175361}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1829097873
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,11 +2,11 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyGhostHealth : MonoBehaviour
+public class EnemyOrangeGolemHealth : MonoBehaviour
 {
-    public event Action onGhostDie;
+    public event Action onOrangeGolemDie;
 
-    [SerializeField] private EnemiesDataSo ghostData;
+    [SerializeField] private EnemiesDataSo orangeGolemData;
     [SerializeField] private Image healthBar;
     [SerializeField] private GameObject enemyDeathEffectPrefab;
 
@@ -30,7 +30,7 @@ public class EnemyGhostHealth : MonoBehaviour
     {
         if (health < 1)
         {
-            onGhostDie?.Invoke();
+            onOrangeGolemDie?.Invoke();
 
             Instantiate(enemyDeathEffectPrefab, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
