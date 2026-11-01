@@ -14,14 +14,14 @@ public class EnemyOrangeGolemHealth : MonoBehaviour
 
     private void Start()
     {
-        health = ghostData.ghostHealth;
+        health = orangeGolemData.ghostHealth;
     }
 
     // Función para recibir daño.
     public void ReceiveDamage(float damageAmount)
     {
         health -= damageAmount;
-        healthBar.fillAmount = health / ghostData.ghostHealth;
+        healthBar.fillAmount = health / orangeGolemData.ghostHealth;
 
         Die();
     }
