@@ -20,8 +20,8 @@ public class PlayerMeleeAttack : MonoBehaviour
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
         PlayerMovement = GetComponent<PlayerMovement>();
+        rb = GetComponent<Rigidbody2D>(); 
     }
 
     private void Start()
@@ -35,7 +35,6 @@ public class PlayerMeleeAttack : MonoBehaviour
         {
             if (Input.GetMouseButtonDown((int)playerData.meleeAttack) && PlayerMovement.GetIsGroundState())
             {
-                onPlayerAttack?.Invoke();
                 StartCoroutine(IsAttack());
             }
         }
@@ -56,6 +55,7 @@ public class PlayerMeleeAttack : MonoBehaviour
     private IEnumerator IsAttack()
     {
         isAttacking = true;
+        onPlayerAttack?.Invoke();
         nextAttackTime = Time.time + attackCooldown;
 
         yield return new WaitForSeconds(0.5f);

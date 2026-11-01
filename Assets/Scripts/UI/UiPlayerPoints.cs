@@ -10,17 +10,17 @@ public class UiPlayerPoints : MonoBehaviour
 
     private void Awake()
     {
-        //playerPoints.onPlayerPointsChange += ShowPlayerPoints;
+        playerPoints.onPlayerPointsChange += ShowPlayerPoints;
     }
 
     private void OnDestroy()
     {
-        //playerPoints.onPlayerPointsChange += ShowPlayerPoints;
+        playerPoints.onPlayerPointsChange += ShowPlayerPoints;
     }
 
     private void ShowPlayerPoints()
     {
-        // Muestro los puntos del player
+        // Muestro los puntos del player.
         textPoints.text = playerPoints.GetPlayerPointsValue().ToString("0");
     }
 }

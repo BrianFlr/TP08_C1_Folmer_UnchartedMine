@@ -5,7 +5,7 @@ public class AnimationChanger : MonoBehaviour
     private Animator animator;
     private string currentState;
 
-    private void Start()
+    private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
     }

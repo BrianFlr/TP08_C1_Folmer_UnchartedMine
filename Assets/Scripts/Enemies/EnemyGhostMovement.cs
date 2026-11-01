@@ -20,8 +20,8 @@ public partial class EnemyGhostMovement : MonoBehaviour
 
     private void Start()
     {
-        speed = ghostData.ghostSpeed;
-        aggroRange = ghostData.ghostAggroRange;
+        speed = ghostData.orangeGolemSpeed;
+        aggroRange = ghostData.orangeGolemAggroRange;
         initialPosition = transform.position;
     }
 

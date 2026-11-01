@@ -6,25 +6,18 @@ public class UiPlayerHealth : MonoBehaviour
     [SerializeField] private PlayerHealth playerHealth;
     [SerializeField] private Image fillHealthBar;
 
-    private float maxHealth = 0f;
-
     private void Awake()
     {
-        //playerHealth.onPlayerHealthChange += UpdateHealthBarFill;
-    }
-
-    private void Start()
-    {
-        //maxHealth = playerHealth.GetMaxHealthValue();
+        playerHealth.onPlayerHealthChange += UpdateHealthBarFill;
     }
 
     private void OnDestroy()
     {
-        //playerHealth.onPlayerHealthChange -= UpdateHealthBarFill;
+        playerHealth.onPlayerHealthChange -= UpdateHealthBarFill;
     }
 
     private void UpdateHealthBarFill()
     {
-        fillHealthBar.fillAmount = playerHealth.GetHealthValue() / maxHealth;
+        fillHealthBar.fillAmount = playerHealth.GetHealthValue() / playerHealth.GetMaxHealthValue();
     }
 }

@@ -8,7 +8,7 @@ public class EnemySkeletonDamage : MonoBehaviour
 
     private void Start()
     {
-        damage = skeletonData.skeletonDamage;
+        damage = skeletonData.blueGolemDamage;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

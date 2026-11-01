@@ -17,7 +17,7 @@ public class EnemySkeletonMovement : MonoBehaviour
 
     private void Start()
     {
-        speed = skeletonData.skeletonSpeed;
+        speed = skeletonData.blueGolemSpeed;
     }
 
     private void FixedUpdate()

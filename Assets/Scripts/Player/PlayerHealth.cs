@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,8 +7,8 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private PlayerDataSo playerData;
 
-    private float maxHealth = 0f;
-    private float health = 0f;
+    [SerializeField] private float maxHealth = 0f;
+    [SerializeField] private float health = 0f;
 
     private void Start()
     {

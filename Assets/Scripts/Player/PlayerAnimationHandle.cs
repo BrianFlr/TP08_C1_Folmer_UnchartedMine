@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAnimationHandle : MonoBehaviour
@@ -8,7 +9,11 @@ public class PlayerAnimationHandle : MonoBehaviour
     private PlayerHealth playerHealth;
     private Rigidbody2D rb;
 
-    private void Start()
+    [SerializeField] private float previousHealth = 0f;
+    private bool isHurt = false;
+    private bool isDie = false;
+
+    private void Awake()
     {
         animatorChanger = GetComponent<AnimationChanger>();
         playerMovement = GetComponent<PlayerMovement>();
@@ -17,25 +22,33 @@ public class PlayerAnimationHandle : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
-        playerHealth.onPlayerHealthChange += PlayerHurt;
+        playerAttack.onPlayerAttack += PlayerAttackAnimation;
+        playerHealth.onPlayerHealthChange += PlayerHurtAnimation;
+        playerHealth.onPlayerHealthChange += PlayerDieAnimation;
+    }
+
+    private void Start()
+    {
+        previousHealth = playerHealth.GetMaxHealthValue();
     }
 
     private void Update()
     {
-        PlayerMove();
-        PlayerJumpOrFall();
-        PlayerAttack();
+        PlayerMoveAnimations();
+        PlayerJumpOrFallAnimations();
     }
 
     private void OnDestroy()
     {
-        playerHealth.onPlayerHealthChange -= PlayerHurt;
+        playerAttack.onPlayerAttack -= PlayerAttackAnimation;
+        playerHealth.onPlayerHealthChange -= PlayerHurtAnimation;
+        playerHealth.onPlayerHealthChange -= PlayerDieAnimation;
     }
 
     // Animaciones de movimiento.
-    private void PlayerMove()
+    private void PlayerMoveAnimations()
     {
-        if (playerMovement.GetIsGroundState() && !playerAttack.GetAttackingState())
+        if (playerMovement.GetIsGroundState() && !isHurt && !playerAttack.GetAttackingState() && !isDie)
         {
             if (rb.linearVelocityX != 0)
             {
@@ -50,7 +63,7 @@ public class PlayerAnimationHandle : MonoBehaviour
     }
 
     // Animacion de saltar y caer.
-    private void PlayerJumpOrFall()
+    private void PlayerJumpOrFallAnimations()
     {
         if (rb.linearVelocityY != 0 && !playerMovement.GetIsGroundState())
         {
@@ -59,7 +72,7 @@ public class PlayerAnimationHandle : MonoBehaviour
     }
 
     // Animacion de ataque a melee.
-    private void PlayerAttack()
+    private void PlayerAttackAnimation()
     {
         if (playerAttack.GetAttackingState())
         {
@@ -68,9 +81,35 @@ public class PlayerAnimationHandle : MonoBehaviour
     }
 
     // Animación de daño.
-    private void PlayerHurt()
+    private void PlayerHurtAnimation()
     {
+        if (playerHealth.GetHealthValue() < previousHealth)
+        {
+            StartCoroutine(PlayerHurt());
+        }
+
+        previousHealth = playerHealth.GetHealthValue();
+    }
+
+    // Animación de muerte.
+    private void PlayerDieAnimation()
+    {
+        if (playerHealth.GetHealthValue() < 0)
+        {
+            isDie = true;
+            ChangeAnimationState(PlayerAnimations.Die);
+        }
+    }
+
+    // Para que se reproduzca la animación de daño sin ser interrumpida.
+    private IEnumerator PlayerHurt()
+    {
+        isHurt = true;
         ChangeAnimationState(PlayerAnimations.Hurt);
+
+        yield return new WaitForSeconds(0.3f);
+
+        isHurt = false;
     }
 
     private void ChangeAnimationState(PlayerAnimations actualAnimation)
@@ -100,15 +139,4 @@ public class PlayerAnimationHandle : MonoBehaviour
                 break;
         }
     }
-}
-
-public enum PlayerAnimations
-{
-    Idle,
-    Walk,
-    Jump,
-    Attack,
-    Dig,
-    Hurt,
-    Die
 }

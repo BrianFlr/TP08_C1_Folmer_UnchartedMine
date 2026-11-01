@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91386c76506fef24f8b0170dc86f0d8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ef9b0d22a4df90445a1bdb19bfe63b08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1943,8 +1943,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You  Died
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1f0138b267684a438c4e2e23a324cf0, type: 2}
-  m_sharedMaterial: {fileID: 5826077972927634870, guid: e1f0138b267684a438c4e2e23a324cf0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2371,8 +2371,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Souls Liberated :'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f3eee054bc4f9ee48940cb3c451401e0, type: 2}
-  m_sharedMaterial: {fileID: -1599199923898147760, guid: f3eee054bc4f9ee48940cb3c451401e0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2855,7 +2855,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 530, y: 130}
+  m_SizeDelta: {x: 530, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1011028672
 MonoBehaviour:
@@ -3521,7 +3521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fbc3cb9ef0eded4bb7b774a2ca906af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiPlayerPoints
-  playerPoints: {fileID: 0}
+  playerPoints: {fileID: 1303377110}
   textPoints: {fileID: 1629656783}
 --- !u!114 &1052620764
 MonoBehaviour:
@@ -3535,7 +3535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b001e89bd017545868d59594deb5d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiPlayerHealth
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 1303377109}
   fillHealthBar: {fileID: 310928358}
 --- !u!224 &1052620765
 RectTransform:
@@ -3700,8 +3700,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
-  m_sharedMaterial: {fileID: 2333829118415445460, guid: fad5d447a5189554f8b81b4fa2090664, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4314,8 +4314,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 6370436135271955175, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
-    m_PressedSprite: {fileID: -827262886115361592, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 65214922f26e58742b8583547bd758ba, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: ca71aebdbdf772443b1b0f665dc5725a, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -4349,7 +4349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3534088073826116570, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95f21a96cb9842f42a119d47e923ab28, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4639,6 +4639,7 @@ GameObject:
   - component: {fileID: 1303377105}
   - component: {fileID: 1303377106}
   - component: {fileID: 1303377109}
+  - component: {fileID: 1303377110}
   - component: {fileID: 1303377108}
   - component: {fileID: 1303377107}
   - component: {fileID: 1303377103}
@@ -4665,7 +4666,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1.1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4777,6 +4778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6130ca0623382e44199d90330f7d3117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationHandle
+  previousHealth: 0
 --- !u!114 &1303377108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4802,6 +4804,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   playerData: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
+  maxHealth: 0
+  health: 0
+--- !u!114 &1303377110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303377101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3946d06a84496f74c83d4aa7f32f909d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPoints
 --- !u!1 &1314842544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,8 +5305,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 13746d0ca972d0a4c9a17150063e5a2c, type: 2}
+  m_sharedMaterial: {fileID: 3690458391282139565, guid: 13746d0ca972d0a4c9a17150063e5a2c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5320,7 +5336,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5935,6 +5951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1818702821}
+  - component: {fileID: 1818702822}
   - component: {fileID: 1818702820}
   - component: {fileID: 1818702819}
   m_Layer: 9
@@ -6034,6 +6051,19 @@ Transform:
   - {fileID: 1181175361}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818702822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818702818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46e5e0e04adf944b89cd173dfcdd2fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyOrangeGolemDamage
+  orangeGolemData: {fileID: 11400000, guid: dfa9b8269a9c2574cb00074eb6da87d3, type: 2}
 --- !u!1 &1829097873
 GameObject:
   m_ObjectHideFlags: 0
@@ -6339,7 +6369,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 130}
+  m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1865742923
 MonoBehaviour:
@@ -6728,8 +6758,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Restart
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c13e5c768fd631845b652562eab5de35, type: 2}
-  m_sharedMaterial: {fileID: 6473237169509049180, guid: c13e5c768fd631845b652562eab5de35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 13746d0ca972d0a4c9a17150063e5a2c, type: 2}
+  m_sharedMaterial: {fileID: 3690458391282139565, guid: 13746d0ca972d0a4c9a17150063e5a2c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6759,7 +6789,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6865,7 +6895,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3534088073826116570, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95f21a96cb9842f42a119d47e923ab28, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6912,8 +6942,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 6370436135271955175, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
-    m_PressedSprite: {fileID: -827262886115361592, guid: 11a4d79f16f5adf40b0e320cf2a13255, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 65214922f26e58742b8583547bd758ba, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: ca71aebdbdf772443b1b0f665dc5725a, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -7756,6 +7786,10 @@ SceneRoots:
   - {fileID: 2056639649}
   - {fileID: 124230764}
   - {fileID: 637847436}
+  - {fileID: 1303377104}
+  - {fileID: 1283276831}
+  - {fileID: 1416655987}
+  - {fileID: 1818702821}
   - {fileID: 900951254}
   - {fileID: 1449171624}
   - {fileID: 332010043}
@@ -7765,7 +7799,3 @@ SceneRoots:
   - {fileID: 1228555168}
   - {fileID: 1036055711}
   - {fileID: 126298283}
-  - {fileID: 1303377104}
-  - {fileID: 1283276831}
-  - {fileID: 1416655987}
-  - {fileID: 1818702821}
