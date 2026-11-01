@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Miner-Death
+  m_Name: Miner-Die
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -159,7 +159,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Miner-Damage
+  m_Name: Miner-Hurt
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -213,9 +213,9 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 70, y: 60, z: 0}
+  m_AnyStatePosition: {x: 70, y: 160, z: 0}
   m_EntryPosition: {x: 70, y: 110, z: 0}
-  m_ExitPosition: {x: 930, y: 110, z: 0}
+  m_ExitPosition: {x: 70, y: 210, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 873041831717997916}
 --- !u!1102 &5424344424080228167

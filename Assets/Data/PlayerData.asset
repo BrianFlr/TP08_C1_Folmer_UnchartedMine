@@ -19,3 +19,5 @@ MonoBehaviour:
   health: 100
   speed: 4
   jumpForce: 8
+  damage: 5
+  attackCooldown: 1

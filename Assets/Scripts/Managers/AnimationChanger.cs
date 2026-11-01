@@ -10,7 +10,7 @@ public class AnimationChanger : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
     }
 
-    private void changeAnimationState(string newState)
+    public void changeAnimationState(string newState)
     {
         // Si es la misma animación, no la interrumpo.
         if (currentState == newState) return;
