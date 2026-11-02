@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 51c465b6a3709404097fd7ddc89f6c43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5336501219801730404
+    second: OreGemSpritesheet_0
+  - first:
+      213: 4426646863383103686
+    second: OreGemSpritesheet_1
+  - first:
+      213: 2973925554771070951
+    second: OreGemSpritesheet_2
+  - first:
+      213: -4162581020090192220
+    second: OreGemSpritesheet_3
+  - first:
+      213: -2265890470996349790
+    second: OreGemSpritesheet_4
+  - first:
+      213: 8708139871571677469
+    second: OreGemSpritesheet_5
+  - first:
+      213: -6523702013944336639
+    second: OreGemSpritesheet_6
+  - first:
+      213: 2463179946385612275
+    second: OreGemSpritesheet_7
+  - first:
+      213: 2169295562222304566
+    second: OreGemSpritesheet_8
+  - first:
+      213: 6860056182804700864
+    second: OreGemSpritesheet_9
+  - first:
+      213: 1627831928734660500
+    second: OreGemSpritesheet_10
+  - first:
+      213: -614051653119766051
+    second: OreGemSpritesheet_11
+  - first:
+      213: 4658652884616584649
+    second: OreGemSpritesheet_12
+  - first:
+      213: -3795133171719270568
+    second: OreGemSpritesheet_13
+  - first:
+      213: -9013076122494633509
+    second: OreGemSpritesheet_14
+  - first:
+      213: 5647435777715066634
+    second: OreGemSpritesheet_15
+  - first:
+      213: -4522711513612359701
+    second: OreGemSpritesheet_16
+  - first:
+      213: 2505167830971306126
+    second: OreGemSpritesheet_17
+  - first:
+      213: 1127429082853179950
+    second: OreGemSpritesheet_18
+  - first:
+      213: -7424355692078736686
+    second: OreGemSpritesheet_19
+  - first:
+      213: 756557774847105065
+    second: OreGemSpritesheet_20
+  - first:
+      213: -2274470612520008559
+    second: OreGemSpritesheet_21
+  - first:
+      213: 9177254756885348010
+    second: OreGemSpritesheet_22
+  - first:
+      213: 1932231610339567687
+    second: OreGemSpritesheet_23
+  - first:
+      213: -3878195774806159465
+    second: OreGemSpritesheet_24
+  - first:
+      213: -9162142433125477914
+    second: OreGemSpritesheet_25
+  - first:
+      213: -3273970166550332040
+    second: OreGemSpritesheet_26
+  - first:
+      213: 3811506638796570737
+    second: OreGemSpritesheet_27
+  - first:
+      213: 1063736566183577381
+    second: OreGemSpritesheet_28
+  - first:
+      213: 1670887653910633813
+    second: OreGemSpritesheet_29
+  - first:
+      213: 8376980743095930069
+    second: OreGemSpritesheet_30
+  - first:
+      213: 1591262402724465901
+    second: OreGemSpritesheet_31
+  - first:
+      213: 5491145866749534922
+    second: OreGemSpritesheet_32
+  - first:
+      213: 2960831155822905088
+    second: OreGemSpritesheet_33
+  - first:
+      213: -2057508586763875159
+    second: OreGemSpritesheet_34
+  - first:
+      213: -6983307442112431137
+    second: OreGemSpritesheet_35
+  - first:
+      213: -4410373471206135492
+    second: OreGemSpritesheet_36
+  - first:
+      213: 697823240560959847
+    second: OreGemSpritesheet_37
+  - first:
+      213: -4256510045411782144
+    second: OreGemSpritesheet_38
+  - first:
+      213: 2156522359960706414
+    second: OreGemSpritesheet_39
+  - first:
+      213: 249876354921901454
+    second: OreGemSpritesheet_40
+  - first:
+      213: 8304679074121645869
+    second: OreGemSpritesheet_41
+  - first:
+      213: -611394211343902356
+    second: OreGemSpritesheet_42
+  - first:
+      213: 3349043261662395508
+    second: OreGemSpritesheet_43
+  - first:
+      213: 7634909169754419815
+    second: OreGemSpritesheet_44
+  - first:
+      213: 6937062812651179709
+    second: OreGemSpritesheet_45
+  - first:
+      213: 8584101378474496018
+    second: OreGemSpritesheet_46
+  - first:
+      213: 2846223544605397142
+    second: OreGemSpritesheet_47
+  - first:
+      213: 7302194867168370344
+    second: OreGemSpritesheet_48
+  - first:
+      213: -494707107948139052
+    second: OreGemSpritesheet_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OreGemSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d88bdd59f0f0a40800000000000000
+      internalID: 5336501219801730404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 129
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c80c0e6edb9e6d30800000000000000
+      internalID: 4426646863383103686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef06981981854920800000000000000
+      internalID: 2973925554771070951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeadb4dd9a8b36c0800000000000000
+      internalID: -4162581020090192220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ace1503f90fd80e0800000000000000
+      internalID: -2265890470996349790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 129
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d111273531789d870800000000000000
+      internalID: 8708139871571677469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 131
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fe85615972775a0800000000000000
+      internalID: -6523702013944336639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 131
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd1e2a5c19fe2220800000000000000
+      internalID: 2463179946385612275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 131
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d771702d2ea1e10800000000000000
+      internalID: 2169295562222304566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 131
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cedb4b80c0d33f50800000000000000
+      internalID: 6860056182804700864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b44ab388379610800000000000000
+      internalID: 1627831928734660500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd11e0e56437a77f0800000000000000
+      internalID: -614051653119766051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd9b6fad1cd6a040800000000000000
+      internalID: 4658652884616584649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f0f50ec7af45bc0800000000000000
+      internalID: -3795133171719270568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 100
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9f629150f1be280800000000000000
+      internalID: -9013076122494633509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07d98e1be8bf5e40800000000000000
+      internalID: 5647435777715066634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 99
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7e09937d91c31c0800000000000000
+      internalID: -4522711513612359701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 98
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80d7cb8ed424c220800000000000000
+      internalID: 2505167830971306126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 99
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2288e807ce65af00800000000000000
+      internalID: 1127429082853179950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da5f7f75d367f890800000000000000
+      internalID: -7424355692078736686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92852dda945df7a00800000000000000
+      internalID: 756557774847105065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 67
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1940ea057057f60e0800000000000000
+      internalID: -2274470612520008559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 67
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae3a6504982c5f70800000000000000
+      internalID: 9177254756885348010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7482216896aa0da10800000000000000
+      internalID: 1932231610339567687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f02498d71ed2ac0800000000000000
+      internalID: -3878195774806159465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 66
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1d50c000889d080800000000000000
+      internalID: -9162142433125477914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d7a81da758092d0800000000000000
+      internalID: -3273970166550332040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 67
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1704380081135e430800000000000000
+      internalID: 3811506638796570737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 67
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52747f165c623ce00800000000000000
+      internalID: 1063736566183577381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dddeee77f203710800000000000000
+      internalID: 1670887653910633813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc458a4a93014470800000000000000
+      internalID: 8376980743095930069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec83d279bc451610800000000000000
+      internalID: 1591262402724465901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e57d8218743c40800000000000000
+      internalID: 5491145866749534922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 36
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007cbb2cf3cf61920800000000000000
+      internalID: 2960831155822905088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 35
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac8f9b67d24273e0800000000000000
+      internalID: -2057508586763875159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 35
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbfb8b61ee461f90800000000000000
+      internalID: -6983307442112431137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39a3f1f1b43bc2c0800000000000000
+      internalID: -4410373471206135492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 33
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761e5a14a8a2fa900800000000000000
+      internalID: 697823240560959847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 34
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00259586aa6dde4c0800000000000000
+      internalID: -4256510045411782144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 35
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d15af19a18ded10800000000000000
+      internalID: 2156522359960706414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8da3ec883db77300800000000000000
+      internalID: 249876354921901454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ff3aa2e95204370800000000000000
+      internalID: 8304679074121645869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69dd1f3434e387f0800000000000000
+      internalID: -611394211343902356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c7dcc3a113a7e20800000000000000
+      internalID: 3349043261662395508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762b59b3075a4f960800000000000000
+      internalID: 7634909169754419815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe45acbfd5654060800000000000000
+      internalID: 6937062812651179709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210d9e329bad02770800000000000000
+      internalID: 8584101378474496018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690de8fdb31df7720800000000000000
+      internalID: 2846223544605397142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae50420b8b965560800000000000000
+      internalID: 7302194867168370344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OreGemSpritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dde3e2a1827229f0800000000000000
+      internalID: -494707107948139052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OreGemSpritesheet_0: 5336501219801730404
+      OreGemSpritesheet_1: 4426646863383103686
+      OreGemSpritesheet_10: 1627831928734660500
+      OreGemSpritesheet_11: -614051653119766051
+      OreGemSpritesheet_12: 4658652884616584649
+      OreGemSpritesheet_13: -3795133171719270568
+      OreGemSpritesheet_14: -9013076122494633509
+      OreGemSpritesheet_15: 5647435777715066634
+      OreGemSpritesheet_16: -4522711513612359701
+      OreGemSpritesheet_17: 2505167830971306126
+      OreGemSpritesheet_18: 1127429082853179950
+      OreGemSpritesheet_19: -7424355692078736686
+      OreGemSpritesheet_2: 2973925554771070951
+      OreGemSpritesheet_20: 756557774847105065
+      OreGemSpritesheet_21: -2274470612520008559
+      OreGemSpritesheet_22: 9177254756885348010
+      OreGemSpritesheet_23: 1932231610339567687
+      OreGemSpritesheet_24: -3878195774806159465
+      OreGemSpritesheet_25: -9162142433125477914
+      OreGemSpritesheet_26: -3273970166550332040
+      OreGemSpritesheet_27: 3811506638796570737
+      OreGemSpritesheet_28: 1063736566183577381
+      OreGemSpritesheet_29: 1670887653910633813
+      OreGemSpritesheet_3: -4162581020090192220
+      OreGemSpritesheet_30: 8376980743095930069
+      OreGemSpritesheet_31: 1591262402724465901
+      OreGemSpritesheet_32: 5491145866749534922
+      OreGemSpritesheet_33: 2960831155822905088
+      OreGemSpritesheet_34: -2057508586763875159
+      OreGemSpritesheet_35: -6983307442112431137
+      OreGemSpritesheet_36: -4410373471206135492
+      OreGemSpritesheet_37: 697823240560959847
+      OreGemSpritesheet_38: -4256510045411782144
+      OreGemSpritesheet_39: 2156522359960706414
+      OreGemSpritesheet_4: -2265890470996349790
+      OreGemSpritesheet_40: 249876354921901454
+      OreGemSpritesheet_41: 8304679074121645869
+      OreGemSpritesheet_42: -611394211343902356
+      OreGemSpritesheet_43: 3349043261662395508
+      OreGemSpritesheet_44: 7634909169754419815
+      OreGemSpritesheet_45: 6937062812651179709
+      OreGemSpritesheet_46: 8584101378474496018
+      OreGemSpritesheet_47: 2846223544605397142
+      OreGemSpritesheet_48: 7302194867168370344
+      OreGemSpritesheet_49: -494707107948139052
+      OreGemSpritesheet_5: 8708139871571677469
+      OreGemSpritesheet_6: -6523702013944336639
+      OreGemSpritesheet_7: 2463179946385612275
+      OreGemSpritesheet_8: 2169295562222304566
+      OreGemSpritesheet_9: 6860056182804700864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
