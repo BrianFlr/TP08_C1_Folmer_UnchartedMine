@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 29ac8d4a0e74b4743b710b30c52c5661
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 95627507427448245
+    second: RocksBackground_0
+  - first:
+      213: 1780378309346809769
+    second: RocksBackground_1
+  - first:
+      213: -4709217904602922064
+    second: RocksBackground_2
+  - first:
+      213: 6107552831467461162
+    second: RocksBackground_3
+  - first:
+      213: -4031744473296117758
+    second: RocksBackground_4
+  - first:
+      213: -1323892533968814657
+    second: RocksBackground_5
+  - first:
+      213: -2405459265087840915
+    second: RocksBackground_6
+  - first:
+      213: 5319492558028226142
+    second: RocksBackground_7
+  - first:
+      213: -6293082118813889247
+    second: RocksBackground_8
+  - first:
+      213: 1510634214843737982
+    second: RocksBackground_9
+  - first:
+      213: 1316591303698507139
+    second: RocksBackground_10
+  - first:
+      213: -6969548000077477897
+    second: RocksBackground_11
+  - first:
+      213: -1140027547975359727
+    second: RocksBackground_12
+  - first:
+      213: -3457549989920516951
+    second: RocksBackground_13
+  - first:
+      213: -4457202905408028443
+    second: RocksBackground_14
+  - first:
+      213: -8254549370294188420
+    second: RocksBackground_15
+  - first:
+      213: 3119023564563334799
+    second: RocksBackground_16
+  - first:
+      213: 624407117803702794
+    second: RocksBackground_17
+  - first:
+      213: 6155982475214542884
+    second: RocksBackground_18
+  - first:
+      213: -1251552137054675285
+    second: RocksBackground_19
+  - first:
+      213: 9064499981022052868
+    second: RocksBackground_20
+  - first:
+      213: -7333276854646923815
+    second: RocksBackground_21
+  - first:
+      213: -6448688887628489355
+    second: RocksBackground_22
+  - first:
+      213: -1894089839024245085
+    second: RocksBackground_23
+  - first:
+      213: -2305977946298420904
+    second: RocksBackground_24
+  - first:
+      213: 8268661248916722440
+    second: RocksBackground_25
+  - first:
+      213: -124662845389408486
+    second: RocksBackground_26
+  - first:
+      213: -4621840761019792099
+    second: RocksBackground_27
+  - first:
+      213: 9205081221219823022
+    second: RocksBackground_28
+  - first:
+      213: 9217353148877259182
+    second: RocksBackground_29
+  - first:
+      213: -5184201505554810175
+    second: RocksBackground_30
+  - first:
+      213: 547535827854228860
+    second: RocksBackground_31
+  - first:
+      213: 8378837868675082709
+    second: RocksBackground_32
+  - first:
+      213: -890888681767423833
+    second: RocksBackground_33
+  - first:
+      213: 9016954693772309863
+    second: RocksBackground_34
+  - first:
+      213: -2794870685320201357
+    second: RocksBackground_35
+  - first:
+      213: -1214513767379437837
+    second: RocksBackground_36
+  - first:
+      213: 1576672871547938902
+    second: RocksBackground_37
+  - first:
+      213: 5222041861529911892
+    second: RocksBackground_38
+  - first:
+      213: 948136176520831666
+    second: RocksBackground_39
+  - first:
+      213: -5410104366931907623
+    second: RocksBackground_40
+  - first:
+      213: -165239009061999335
+    second: RocksBackground_41
+  - first:
+      213: -8820929994027779958
+    second: RocksBackground_42
+  - first:
+      213: 6926430359760869392
+    second: RocksBackground_43
+  - first:
+      213: 9057376801381504670
+    second: RocksBackground_44
+  - first:
+      213: 4487378099314553234
+    second: RocksBackground_45
+  - first:
+      213: 1076792261128347803
+    second: RocksBackground_46
+  - first:
+      213: 1848540493369803395
+    second: RocksBackground_47
+  - first:
+      213: -4812699648088981137
+    second: RocksBackground_48
+  - first:
+      213: 8266595965828751681
+    second: RocksBackground_49
+  - first:
+      213: 7888972732111821179
+    second: RocksBackground_50
+  - first:
+      213: 5270399650594887961
+    second: RocksBackground_51
+  - first:
+      213: -6462210460711054877
+    second: RocksBackground_52
+  - first:
+      213: 2854617362417323278
+    second: RocksBackground_53
+  - first:
+      213: -2680414809354951563
+    second: RocksBackground_54
+  - first:
+      213: -1285535840487528491
+    second: RocksBackground_55
+  - first:
+      213: -2201929974266309469
+    second: RocksBackground_56
+  - first:
+      213: -2197229191347147744
+    second: RocksBackground_57
+  - first:
+      213: -4750434637852146283
+    second: RocksBackground_58
+  - first:
+      213: -1482987984916172937
+    second: RocksBackground_59
+  - first:
+      213: 2272089498589704250
+    second: RocksBackground_60
+  - first:
+      213: 2973603106229391396
+    second: RocksBackground_61
+  - first:
+      213: -8846054467145393324
+    second: RocksBackground_62
+  - first:
+      213: -5124294115665832658
+    second: RocksBackground_63
+  - first:
+      213: -6911801978761673696
+    second: RocksBackground_64
+  - first:
+      213: 5025301539878496490
+    second: RocksBackground_65
+  - first:
+      213: 7331433068023858566
+    second: RocksBackground_66
+  - first:
+      213: 6031470758530877635
+    second: RocksBackground_67
+  - first:
+      213: 1934081713148431267
+    second: RocksBackground_68
+  - first:
+      213: 1995770781443737481
+    second: RocksBackground_69
+  - first:
+      213: 7315189874699461848
+    second: RocksBackground_70
+  - first:
+      213: 810522410663301719
+    second: RocksBackground_71
+  - first:
+      213: -1619029348893416310
+    second: RocksBackground_72
+  - first:
+      213: 3506288666317333030
+    second: RocksBackground_73
+  - first:
+      213: 7990549408274256746
+    second: RocksBackground_74
+  - first:
+      213: -2493277597699260416
+    second: RocksBackground_75
+  - first:
+      213: 244551557600614005
+    second: RocksBackground_76
+  - first:
+      213: 7975393057385280582
+    second: RocksBackground_77
+  - first:
+      213: -5307726915894572225
+    second: RocksBackground_78
+  - first:
+      213: 6916380884872113172
+    second: RocksBackground_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RocksBackground_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1119
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b518fa16bcb35100800000000000000
+      internalID: 95627507427448245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1119
+        width: 162
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a75d66b3ac25b810800000000000000
+      internalID: 1780378309346809769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1119
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3cb3a244f75aeb0800000000000000
+      internalID: -4709217904602922064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_3
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1119
+        width: 175
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a9c86e0f262c450800000000000000
+      internalID: 6107552831467461162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_4
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1119
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2006a0c33cd5c08c0800000000000000
+      internalID: -4031744473296117758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_5
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1119
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd3fff21c690ade0800000000000000
+      internalID: -1323892533968814657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1119
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d54c60b871e9ed0800000000000000
+      internalID: -2405459265087840915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1119
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e3b923c42a2d940800000000000000
+      internalID: 5319492558028226142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_8
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1119
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d4cb5b72b7aa8a0800000000000000
+      internalID: -6293082118813889247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_9
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1119
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77ef4190d9d6f410800000000000000
+      internalID: 1510634214843737982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 959
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385615ba0d8754210800000000000000
+      internalID: 1316591303698507139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1042
+        width: 162
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7095a2501374f90800000000000000
+      internalID: -6969548000077477897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1021
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113e4c83cfecd20f0800000000000000
+      internalID: -1140027547975359727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1039
+        width: 175
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4d1a16a905400d0800000000000000
+      internalID: -3457549989920516951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1048
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0c053a295d422c0800000000000000
+      internalID: -4457202905408028443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 997
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76c0ba0513f17d80800000000000000
+      internalID: -8254549370294188420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_16
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1014
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86cedb186ff84b20800000000000000
+      internalID: 3119023564563334799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_17
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1015
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a4ae327f65aa800800000000000000
+      internalID: 624407117803702794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_18
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1029
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42851b602717e6550800000000000000
+      internalID: 6155982475214542884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_19
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1055
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae99fc56f791aee0800000000000000
+      internalID: -1251552137054675285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 831
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402ca5bf4b29bcd70800000000000000
+      internalID: 9064499981022052868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 831
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd1d27dd87fa3a90800000000000000
+      internalID: -7333276854646923815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 831
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d15e19f97a186a0800000000000000
+      internalID: -6448688887628489355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 831
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a67844a357d6b5e0800000000000000
+      internalID: -1894089839024245085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_24
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 831
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8517ff286458fffd0800000000000000
+      internalID: -2305977946298420904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_25
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 831
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80318bdb89f20c270800000000000000
+      internalID: 8268661248916722440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 831
+        width: 175
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17ffd77dcb154ef0800000000000000
+      internalID: -124662845389408486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_27
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 831
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d158efeb05cebdfb0800000000000000
+      internalID: -4621840761019792099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_28
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 831
+        width: 162
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2d6f99940fbf70800000000000000
+      internalID: 9205081221219823022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_29
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 831
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea148207add9aef70800000000000000
+      internalID: 9217353148877259182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 767
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca3c51a2340e08b0800000000000000
+      internalID: -5184201505554810175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 741
+        width: 111
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dfc093fec399700800000000000000
+      internalID: 547535827854228860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 727
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d928f806ac974470800000000000000
+      internalID: 8378837868675082709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_33
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 726
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a036dcc67de2a3f0800000000000000
+      internalID: -890888681767423833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 709
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765f6162588a22d70800000000000000
+      internalID: 9016954693772309863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_35
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 760
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b36586bef9639d0800000000000000
+      internalID: -2794870685320201357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_36
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 751
+        width: 175
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6f680d92e252fe0800000000000000
+      internalID: -1214513767379437837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_37
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 733
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6582c938f9771e510800000000000000
+      internalID: 1576672871547938902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_38
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 754
+        width: 162
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452c5bec76b687840800000000000000
+      internalID: 5222041861529911892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_39
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 671
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2a83044d4782d00800000000000000
+      internalID: 948136176520831666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 639
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbeb330eb27be4b0800000000000000
+      internalID: -5410104366931907623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 639
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d62d92ff3f4bdf0800000000000000
+      internalID: -165239009061999335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_42
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 623
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88b26dd7e2c59580800000000000000
+      internalID: -8820929994027779958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_43
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 623
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0181703e6bf9f1060800000000000000
+      internalID: 6926430359760869392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_44
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 543
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96553b763442bd70800000000000000
+      internalID: 9057376801381504670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_45
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 543
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291f28e2b9e564e30800000000000000
+      internalID: 4487378099314553234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_46
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 447
+        width: 66
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90e17d3bd881fe00800000000000000
+      internalID: 1076792261128347803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 447
+        width: 66
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3828b34e8c557a910800000000000000
+      internalID: 1848540493369803395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_48
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 495
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6142093b2bd53db0800000000000000
+      internalID: -4812699648088981137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_49
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 495
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14166ec8b39d8b270800000000000000
+      internalID: 8266595965828751681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_50
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 367
+        width: 63
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79944cf6e24b7d60800000000000000
+      internalID: 7888972732111821179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_51
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 367
+        width: 63
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9191d06fe88342940800000000000000
+      internalID: 5270399650594887961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_52
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 415
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1118103dd9156a0800000000000000
+      internalID: -6462210460711054877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_53
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 415
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d0c80ed53ad9720800000000000000
+      internalID: 2854617362417323278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 335
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574a3bdaee04dcad0800000000000000
+      internalID: -2680414809354951563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_55
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 335
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d725b1d6fbd82ee0800000000000000
+      internalID: -1285535840487528491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_56
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 367
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4529fca5c2171e0800000000000000
+      internalID: -2201929974266309469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 367
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c62af11bfd181e0800000000000000
+      internalID: -2197229191347147744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_58
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 341
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5958c12add0131eb0800000000000000
+      internalID: -4750434637852146283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_59
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 341
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f26e0f84e5b6be0800000000000000
+      internalID: -1482987984916172937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 159
+        width: 63
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30b5556c55188f10800000000000000
+      internalID: 2272089498589704250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_61
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 159
+        width: 63
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4201dc1354c544920800000000000000
+      internalID: 2973603106229391396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_62
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 287
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b9a0e94508c3580800000000000000
+      internalID: -8846054467145393324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_63
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 287
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e251d17c6a9d2e8b0800000000000000
+      internalID: -5124294115665832658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_64
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 252
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024811a78b85410a0800000000000000
+      internalID: -6911801978761673696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_65
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 252
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae86ea510257db540800000000000000
+      internalID: 5025301539878496490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_66
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 201
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6854d12288b7eb560800000000000000
+      internalID: 7331433068023858566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_67
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 201
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c88363e2b614b350800000000000000
+      internalID: 6031470758530877635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 175
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab8ac6221d37da10800000000000000
+      internalID: 1934081713148431267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_69
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 175
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987ce01a3f662bb10800000000000000
+      internalID: 1995770781443737481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_70
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 66
+        width: 66
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4eef9fe66c48560800000000000000
+      internalID: 7315189874699461848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_71
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 66
+        width: 66
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752541296dd8f3b00800000000000000
+      internalID: 810522410663301719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_72
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 82
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84a64a926d0889e0800000000000000
+      internalID: -1619029348893416310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_73
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 82
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622a2d307f6d8a030800000000000000
+      internalID: 3506288666317333030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631560e95224ee60800000000000000
+      internalID: 7990549408274256746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_75
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00042be1c39166dd0800000000000000
+      internalID: -2493277597699260416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_76
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5769d009852d46300800000000000000
+      internalID: 244551557600614005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_77
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f091fab94eae60800000000000000
+      internalID: 7975393057385280582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_78
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b0355dd7a2756b0800000000000000
+      internalID: -5307726915894572225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocksBackground_79
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41caa1e25cbebff50800000000000000
+      internalID: 6916380884872113172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RocksBackground_0: 95627507427448245
+      RocksBackground_1: 1780378309346809769
+      RocksBackground_10: 1316591303698507139
+      RocksBackground_11: -6969548000077477897
+      RocksBackground_12: -1140027547975359727
+      RocksBackground_13: -3457549989920516951
+      RocksBackground_14: -4457202905408028443
+      RocksBackground_15: -8254549370294188420
+      RocksBackground_16: 3119023564563334799
+      RocksBackground_17: 624407117803702794
+      RocksBackground_18: 6155982475214542884
+      RocksBackground_19: -1251552137054675285
+      RocksBackground_2: -4709217904602922064
+      RocksBackground_20: 9064499981022052868
+      RocksBackground_21: -7333276854646923815
+      RocksBackground_22: -6448688887628489355
+      RocksBackground_23: -1894089839024245085
+      RocksBackground_24: -2305977946298420904
+      RocksBackground_25: 8268661248916722440
+      RocksBackground_26: -124662845389408486
+      RocksBackground_27: -4621840761019792099
+      RocksBackground_28: 9205081221219823022
+      RocksBackground_29: 9217353148877259182
+      RocksBackground_3: 6107552831467461162
+      RocksBackground_30: -5184201505554810175
+      RocksBackground_31: 547535827854228860
+      RocksBackground_32: 8378837868675082709
+      RocksBackground_33: -890888681767423833
+      RocksBackground_34: 9016954693772309863
+      RocksBackground_35: -2794870685320201357
+      RocksBackground_36: -1214513767379437837
+      RocksBackground_37: 1576672871547938902
+      RocksBackground_38: 5222041861529911892
+      RocksBackground_39: 948136176520831666
+      RocksBackground_4: -4031744473296117758
+      RocksBackground_40: -5410104366931907623
+      RocksBackground_41: -165239009061999335
+      RocksBackground_42: -8820929994027779958
+      RocksBackground_43: 6926430359760869392
+      RocksBackground_44: 9057376801381504670
+      RocksBackground_45: 4487378099314553234
+      RocksBackground_46: 1076792261128347803
+      RocksBackground_47: 1848540493369803395
+      RocksBackground_48: -4812699648088981137
+      RocksBackground_49: 8266595965828751681
+      RocksBackground_5: -1323892533968814657
+      RocksBackground_50: 7888972732111821179
+      RocksBackground_51: 5270399650594887961
+      RocksBackground_52: -6462210460711054877
+      RocksBackground_53: 2854617362417323278
+      RocksBackground_54: -2680414809354951563
+      RocksBackground_55: -1285535840487528491
+      RocksBackground_56: -2201929974266309469
+      RocksBackground_57: -2197229191347147744
+      RocksBackground_58: -4750434637852146283
+      RocksBackground_59: -1482987984916172937
+      RocksBackground_6: -2405459265087840915
+      RocksBackground_60: 2272089498589704250
+      RocksBackground_61: 2973603106229391396
+      RocksBackground_62: -8846054467145393324
+      RocksBackground_63: -5124294115665832658
+      RocksBackground_64: -6911801978761673696
+      RocksBackground_65: 5025301539878496490
+      RocksBackground_66: 7331433068023858566
+      RocksBackground_67: 6031470758530877635
+      RocksBackground_68: 1934081713148431267
+      RocksBackground_69: 1995770781443737481
+      RocksBackground_7: 5319492558028226142
+      RocksBackground_70: 7315189874699461848
+      RocksBackground_71: 810522410663301719
+      RocksBackground_72: -1619029348893416310
+      RocksBackground_73: 3506288666317333030
+      RocksBackground_74: 7990549408274256746
+      RocksBackground_75: -2493277597699260416
+      RocksBackground_76: 244551557600614005
+      RocksBackground_77: 7975393057385280582
+      RocksBackground_78: -5307726915894572225
+      RocksBackground_79: 6916380884872113172
+      RocksBackground_8: -6293082118813889247
+      RocksBackground_9: 1510634214843737982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
