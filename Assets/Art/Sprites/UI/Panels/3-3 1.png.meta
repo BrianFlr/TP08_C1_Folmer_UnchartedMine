@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b205f77fb6997c340a8fda98b8f1102f
+guid: 1bb81fdc5c5738b45892f2344172f820
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -821124026223342421
-    second: Dragon9SlicesC_0
+      213: 6761568754682429749
+    second: 3-3 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 9, y: 10, z: 10, w: 9}
+  spriteBorder: {x: 9, y: 9, z: 9, w: 9}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dragon9SlicesC_0
+      name: 3-3 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 84
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bac4b647c08ca94f0800000000000000
-      internalID: -821124026223342421
+      spriteID: 5310a3345fae5dd50800000000000000
+      internalID: 6761568754682429749
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dragon9SlicesC_0: -821124026223342421
+      3-3 1_0: 6761568754682429749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
