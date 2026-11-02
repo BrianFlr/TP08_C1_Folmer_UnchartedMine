@@ -96,7 +96,6 @@ public class UiPauseMenu : MonoBehaviour
 
     private void OnExitClicked()
     {
-
         // Quito el estado de pausa
         ResetPauseState();
 
