@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed47d8d536229314f8a64bbbae506cef
+guid: 7a9f4202d2ba8334ab5ea26cb4c0456e
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Belanidi Serif
+  - The Goldsmith Vintage
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
