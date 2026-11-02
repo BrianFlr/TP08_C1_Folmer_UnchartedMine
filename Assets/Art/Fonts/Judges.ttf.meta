@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a9f4202d2ba8334ab5ea26cb4c0456e
+guid: ee0da4feaf6a1e148a45caf614b10d8f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - The Goldsmith Vintage
+  - Judges
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

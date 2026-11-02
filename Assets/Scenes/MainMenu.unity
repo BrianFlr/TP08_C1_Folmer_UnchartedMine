@@ -1276,18 +1276,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Uncharted \n Mine"
+  m_text: Uncharted Mine
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95e7b4a8143bc8248bdcd3fd63fe601a, type: 2}
-  m_sharedMaterial: {fileID: -3993431037655215485, guid: 95e7b4a8143bc8248bdcd3fd63fe601a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 06523c7cdc7f82049940a2b069ff8bbc, type: 2}
+  m_sharedMaterial: {fileID: -1257041194633455266, guid: 06523c7cdc7f82049940a2b069ff8bbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278249215
-  m_fontColor: {r: 1, g: 0.9007353, b: 0, a: 1}
-  m_enableVertexGradient: 1
+    rgba: 4292607999
+  m_fontColor: {r: 0.998262, g: 1, b: 0.8584906, a: 1}
+  m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -1303,13 +1303,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 125
+  m_fontSizeBase: 125
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 32
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
