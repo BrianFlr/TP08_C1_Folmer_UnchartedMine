@@ -7,7 +7,7 @@ public class PlayerMeleeAttack : MonoBehaviour
     public event Action onPlayerAttack;
 
     [SerializeField] private PlayerDataSo playerData;
-    [SerializeField] private LayerMask enemiesMask;
+    [SerializeField] private LayerMask hitMask;
     [SerializeField] private Transform attackPoint;
     private PlayerMovement PlayerMovement;
     private Rigidbody2D rb;
@@ -48,11 +48,6 @@ public class PlayerMeleeAttack : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.transform.position, attackRadius);
     }
 
-    public bool GetAttackingState()
-    {
-        return isAttacking;
-    }
-
     // Ataque del jugador.
     private IEnumerator IsAttack()
     {
@@ -63,23 +58,45 @@ public class PlayerMeleeAttack : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         // Creo un collider para detectar todos los objetos que se encuentran dentro del collider al momento de golpear.
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, enemiesMask);
+        Collider2D[] hitGameObjects = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, hitMask);
 
         // Aplico el daño a los enemigos llamando su función de recibir daño.
-        foreach (Collider2D enemyGameObject in enemies)
+        foreach (Collider2D hit in hitGameObjects)
         {
-            EnemyOrangeGolemHealth orangeGolem = enemyGameObject.GetComponent<EnemyOrangeGolemHealth>();
-            SpriteRenderer enemySpriteRenderer = enemyGameObject.GetComponentInChildren<SpriteRenderer>();
-
-            if (orangeGolem != null)
-            {
-                orangeGolem.ReceiveDamage(attackDamage);
-                enemySpriteRenderer.color = new Color(1f,1f,0f);
-                enemySpriteRenderer.color = new Color(1f,1f,1f);
-            }
-          
+            HitOrangeGolem(hit);
+            HitMiningNode(hit);
         }
 
         isAttacking = false;
     }
+
+    public bool GetAttackingState()
+    {
+        return isAttacking;
+    }
+
+    private void HitOrangeGolem(Collider2D gameObject)
+    {
+        EnemyOrangeGolemHealth orangeGolem = gameObject.GetComponent<EnemyOrangeGolemHealth>();
+        //SpriteRenderer enemySpriteRenderer = enemyGameObject.GetComponentInChildren<SpriteRenderer>();
+
+        if (orangeGolem != null)
+        {
+            orangeGolem.ReceiveDamage(attackDamage);
+        }
+    }
+
+    private void HitMiningNode(Collider2D gameObject)
+    {
+        MiningNodeHealth miningNode = gameObject.GetComponent<MiningNodeHealth>();
+
+        if (miningNode != null)
+        {
+            miningNode.ReceiveDamage(attackDamage);
+        }
+    }
+
+    
+
+
 }

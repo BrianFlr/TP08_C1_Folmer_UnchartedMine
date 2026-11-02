@@ -15,7 +15,7 @@ TagManager:
   - Ground
   - Player
   - Enemies
-  - 
+  - Mining Nodes
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 3951290599
+    locked: 0
+  - name: Mining Nodes
+    uniqueID: 3840820491
     locked: 0
   - name: Player
     uniqueID: 3945077357
