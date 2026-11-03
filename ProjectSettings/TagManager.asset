@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Platforms Background
+    uniqueID: 181773881
+    locked: 0
+  - name: 'Ground Background '
+    uniqueID: 521498875
+    locked: 0
   - name: Enemies Effects
     uniqueID: 3458960703
     locked: 0
