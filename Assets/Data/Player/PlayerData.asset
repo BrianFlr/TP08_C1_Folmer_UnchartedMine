@@ -18,6 +18,6 @@ MonoBehaviour:
   meleeAttack: 0
   health: 100
   speed: 4
-  jumpForce: 8
-  damage: 5
+  jumpForce: 9
+  attackDamage: 5
   attackCooldown: 0.5

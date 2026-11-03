@@ -59,11 +59,11 @@ TagManager:
   - name: Mining Nodes
     uniqueID: 3840820491
     locked: 0
-  - name: Player
-    uniqueID: 3945077357
-    locked: 0
   - name: Ground
     uniqueID: 300663651
+    locked: 0
+  - name: Player
+    uniqueID: 3945077357
     locked: 0
   m_RenderingLayers:
   - Default
