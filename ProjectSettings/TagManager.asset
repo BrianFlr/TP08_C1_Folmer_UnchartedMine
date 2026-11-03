@@ -44,6 +44,9 @@ TagManager:
   - name: Platforms Background
     uniqueID: 181773881
     locked: 0
+  - name: Platforms
+    uniqueID: 1705306333
+    locked: 0
   - name: 'Ground Background '
     uniqueID: 521498875
     locked: 0
