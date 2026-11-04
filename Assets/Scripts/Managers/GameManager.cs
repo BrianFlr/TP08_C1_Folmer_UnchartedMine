@@ -5,11 +5,13 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    [SerializeField] private PlayerHealth playerHealth;
-    [SerializeField] private PlayerMeleeAttack playerMeleeAttack;
-    [SerializeField] private PlayerPoints playerPoints;
+    [SerializeField] private GameObject player;
+    private PlayerMovement playerMovement;
+    private PlayerHealth playerHealth;
+    private PlayerMeleeAttack playerMeleeAttack;
+    private PlayerPoints playerPoints;
 
-    private int collectableCounter = 0;
+    private int dynamitePackQuantity = 0;
     private bool isGameWin = false;
     private bool isGameOver = false;
 
@@ -24,6 +26,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        playerMovement = player.GetComponent<PlayerMovement>();
+        playerHealth = player.GetComponent<PlayerHealth>();
+        playerMeleeAttack = player.GetComponent<PlayerMeleeAttack>();
+        playerPoints = player.GetComponent<PlayerPoints>();
+
         playerHealth.onPlayerHealthChange += GameOver;
     }
 
@@ -34,17 +41,17 @@ public class GameManager : MonoBehaviour
 
     public void SetCollectablePickedCounter()
     {
-        collectableCounter++;
+        //collectableCounter++;
 
         GameWin();
     }
 
     private void GameWin()
     {
-        if(collectableCounter == 3)
+        /*if(collectableCounter == 3)
         {
             isGameWin = true;
-        }
+        }*/
     }
 
     public bool GetIsGameWinState()
@@ -69,7 +76,7 @@ public class GameManager : MonoBehaviour
     {
         isGameWin = false;
         isGameOver = false;
-        collectableCounter = 0;
+        //collectableCounter = 0;
     }
 
     public void AddPlayerPoints(float pointsValue)
@@ -90,5 +97,10 @@ public class GameManager : MonoBehaviour
     public void SetMeleeDamage(float damageMeleeAmount)
     {
         playerMeleeAttack.SetMeleeDamage(damageMeleeAmount);
+    }
+
+    public void ActivateDoubleJump()
+    {
+        playerMovement.ActivateDoubleJump();
     }
 }
