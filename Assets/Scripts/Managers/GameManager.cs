@@ -6,9 +6,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [SerializeField] private PlayerHealth playerHealth;
+    [SerializeField] private PlayerMeleeAttack playerMeleeAttack;
     [SerializeField] private PlayerPoints playerPoints;
 
-    private float damageBoost = 0f;
     private int collectableCounter = 0;
     private bool isGameWin = false;
     private bool isGameOver = false;
@@ -82,18 +82,13 @@ public class GameManager : MonoBehaviour
         return playerPoints.GetPlayerPointsValue();
     }
 
-    internal void AddPlayerHealth(float healthAmount)
+    public void AddPlayerHealth(float healthAmount)
     {
         playerHealth.AddHealth(healthAmount);
     }
 
-    public void AddBoostDamage(float damageBoostAmount)
+    public void SetMeleeDamage(float damageMeleeAmount)
     {
-        damageBoost += damageBoostAmount;
-    }
-
-    public float GetDamageBoost()
-    {
-        return damageBoost;
+        playerMeleeAttack.SetMeleeDamage(damageMeleeAmount);
     }
 }

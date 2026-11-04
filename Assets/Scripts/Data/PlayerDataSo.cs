@@ -17,4 +17,6 @@ public class PlayerDataSo : ScriptableObject
     [Range(1, 10)] public float jumpForce = 9.0f;
     [Range(1, 10)] public float attackDamage = 5.0f;
     [Range(0.1f, 10f)] public float attackCooldown = 0.5f;
+    [Range(0.1f, 10f)] public float attackRadius = 0.3f;
+    [Range(0.1f, 10f)] public float attackDelayTime = 0.5f;
 }

@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class PickableDamage : Pickables
+public class PickableMeleeDamage : Pickables
 {
     [SerializeField] PickablesDataSo data;
-    private float damageToAdd = 0f;
+    private float damageToSet = 0f;
 
     private void Start()
     {
-        damageToAdd = data.damageToAdd;
+        damageToSet = data.damageToSet;
     }
 
     public override void Pick()
     {
-        GameManager.Instance.AddBoostDamage(damageToAdd);
+        GameManager.Instance.SetMeleeDamage(damageToSet);
         Destroy(gameObject);
     }
 }

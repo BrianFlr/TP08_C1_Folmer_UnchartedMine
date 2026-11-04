@@ -1,14 +1,13 @@
-
 using UnityEngine;
 
 public class PickableSoul : Pickables
 {
-    [SerializeField] PickablesDataSo data;
+    [SerializeField] MineralsDataSo data;
     [SerializeField] private float pointsToAdd = 0f;
 
     private void Start()
     {
-        pointsToAdd = data.pointsToAdd;
+        //pointsToAdd = data.pointsToAdd;
     }
 
     public override void Pick()

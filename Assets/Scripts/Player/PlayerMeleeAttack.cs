@@ -14,10 +14,11 @@ public class PlayerMeleeAttack : MonoBehaviour
 
     private bool isAttacking = false;
 
-    private float attackRadius = 0.3f;
+    private float attackDamage = 0f;
+    private float attackRadius = 0f;
     private float attackCooldown = 0f;
     private float nextAttackTime = 0f;
-    private float attackDamage = 0f;
+    private float attackDelayTime = 0f;
 
     private void Awake()
     {
@@ -28,7 +29,9 @@ public class PlayerMeleeAttack : MonoBehaviour
     private void Start()
     {
         attackDamage = playerData.attackDamage;
+        attackRadius = playerData.attackRadius;
         attackCooldown = playerData.attackCooldown;
+        attackDelayTime = playerData.attackDelayTime;
     }
 
     private void Update()
@@ -55,7 +58,7 @@ public class PlayerMeleeAttack : MonoBehaviour
         onPlayerAttack?.Invoke();
         nextAttackTime = Time.time + attackCooldown;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(attackDelayTime);
 
         // Creo un collider para detectar todos los objetos que se encuentran dentro del collider al momento de golpear.
         Collider2D[] hitGameObjects = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, hitMask);
@@ -96,7 +99,8 @@ public class PlayerMeleeAttack : MonoBehaviour
         }
     }
 
-    
-
-
+    public void SetMeleeDamage(float damageAmount)
+    {
+        attackDamage = damageAmount;
+    }
 }
