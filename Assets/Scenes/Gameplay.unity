@@ -942,7 +942,7 @@ GameObject:
   - component: {fileID: 292031795}
   - component: {fileID: 292031797}
   - component: {fileID: 292031796}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ShieldGemVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 351152516}
   - component: {fileID: 351152517}
   - component: {fileID: 351152515}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pickaxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 353519526}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1365,7 +1365,7 @@ GameObject:
   - component: {fileID: 375875112}
   - component: {fileID: 375875114}
   - component: {fileID: 375875113}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: DynamitePackVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1692,7 @@ GameObject:
   - component: {fileID: 447781635}
   - component: {fileID: 447781637}
   - component: {fileID: 447781636}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HeartGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2135,7 +2135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559698784}
   - component: {fileID: 559698783}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ShieldGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2279,7 +2279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 575654356}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2871,7 +2871,7 @@ GameObject:
   - component: {fileID: 795434483}
   - component: {fileID: 795434484}
   - component: {fileID: 795434485}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HeartGemVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2983,7 +2983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 799738434}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41271,7 +41271,7 @@ GameObject:
   - component: {fileID: 1209959320}
   - component: {fileID: 1209959322}
   - component: {fileID: 1209959321}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PickaxeVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42023,7 +42023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1360050989}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44916,7 +44916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668034795}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45133,7 +45133,7 @@ GameObject:
   - component: {fileID: 1763353846}
   - component: {fileID: 1763353848}
   - component: {fileID: 1763353847}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: DoubleJumpPotionVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45809,7 +45809,7 @@ GameObject:
   - component: {fileID: 1861631925}
   - component: {fileID: 1861631926}
   - component: {fileID: 1861631924}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: DoubleJumpPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45861,7 +45861,7 @@ Transform:
   m_GameObject: {fileID: 1861631923}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: -2.39, z: 0}
+  m_LocalPosition: {x: 83.51, y: 17.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46788,7 +46788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987039948}
   - component: {fileID: 1987039947}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: DynamitePack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47755,6 +47755,6 @@ SceneRoots:
   - {fileID: 447781635}
   - {fileID: 559698784}
   - {fileID: 1861631925}
-  - {fileID: 1987039948}
   - {fileID: 351152516}
+  - {fileID: 1987039948}
   - {fileID: 9121776282509269903}
