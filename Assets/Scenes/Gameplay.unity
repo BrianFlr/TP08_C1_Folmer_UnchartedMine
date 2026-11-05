@@ -993,6 +993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306723506}
+  - component: {fileID: 306723508}
   - component: {fileID: 306723505}
   - component: {fileID: 306723507}
   m_Layer: 14
@@ -1090,7 +1091,23 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &306723508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306723504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd3e5f21fc0d3740bc6b54c7f1e5384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDynamitePack
+  data: {fileID: 11400000, guid: 5d236a2103ef6d14f96d8572d9f6fb3a, type: 2}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1792
 --- !u!1 &310928356
 GameObject:
   m_ObjectHideFlags: 0

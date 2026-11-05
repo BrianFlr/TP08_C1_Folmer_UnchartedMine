@@ -61,13 +61,13 @@ public class PlayerMeleeAttack : MonoBehaviour
         yield return new WaitForSeconds(attackDelayTime);
 
         // Creo un collider para detectar todos los objetos que se encuentran dentro del collider al momento de golpear.
-        Collider2D[] hitGameObjects = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, hitMask);
+        Collider2D[] damagedGameObjects = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRadius, hitMask);
 
         // Aplico el daño a los enemigos llamando su función de recibir daño.
-        foreach (Collider2D hit in hitGameObjects)
+        foreach (Collider2D gameObject in damagedGameObjects)
         {
-            HitEnemies(hit);
-            HitMiningNode(hit);
+            HitEnemies(gameObject);
+            HitMiningNode(gameObject);
         }
 
         isAttacking = false;
@@ -81,7 +81,7 @@ public class PlayerMeleeAttack : MonoBehaviour
     private void HitEnemies(Collider2D gameObject)
     {
         EnemiesHealth enemyHealth = gameObject.GetComponent<EnemiesHealth>();
-        SpriteRenderer enemySpriteRenderer = gameObject.GetComponentInChildren<SpriteRenderer>();
+        //SpriteRenderer enemySpriteRenderer = gameObject.GetComponentInChildren<SpriteRenderer>();
 
         if (enemyHealth != null)
         {
