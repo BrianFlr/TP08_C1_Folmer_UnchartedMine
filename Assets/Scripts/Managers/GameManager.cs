@@ -103,4 +103,9 @@ public class GameManager : MonoBehaviour
     {
         playerMovement.ActivateDoubleJump();
     }
+
+    internal void AddDynamitePack()
+    {
+        dynamitePackQuantity++;
+    }
 }
