@@ -66,7 +66,7 @@ public class PlayerMeleeAttack : MonoBehaviour
         // Aplico el daño a los enemigos llamando su función de recibir daño.
         foreach (Collider2D hit in hitGameObjects)
         {
-            HitOrangeGolem(hit);
+            HitEnemies(hit);
             HitMiningNode(hit);
         }
 
@@ -78,14 +78,14 @@ public class PlayerMeleeAttack : MonoBehaviour
         return isAttacking;
     }
 
-    private void HitOrangeGolem(Collider2D gameObject)
+    private void HitEnemies(Collider2D gameObject)
     {
-        EnemyOrangeGolemHealth orangeGolem = gameObject.GetComponent<EnemyOrangeGolemHealth>();
-        //SpriteRenderer enemySpriteRenderer = enemyGameObject.GetComponentInChildren<SpriteRenderer>();
+        EnemiesHealth enemyHealth = gameObject.GetComponent<EnemiesHealth>();
+        SpriteRenderer enemySpriteRenderer = gameObject.GetComponentInChildren<SpriteRenderer>();
 
-        if (orangeGolem != null)
+        if (enemyHealth != null)
         {
-            orangeGolem.ReceiveDamage(attackDamage);
+            enemyHealth.ReceiveDamage(attackDamage);
         }
     }
 

@@ -18,7 +18,7 @@ TagManager:
   - Mining Nodes
   - Minerals
   - Pickables
-  - 
+  - Obstacle Rocks
   - 
   - 
   - 
@@ -44,9 +44,6 @@ TagManager:
   - name: Platforms Background
     uniqueID: 181773881
     locked: 0
-  - name: Platforms
-    uniqueID: 1705306333
-    locked: 0
   - name: 'Ground Background '
     uniqueID: 521498875
     locked: 0
@@ -58,6 +55,12 @@ TagManager:
     locked: 0
   - name: Mining Nodes
     uniqueID: 3840820491
+    locked: 0
+  - name: Ground Platforms
+    uniqueID: 1705306333
+    locked: 0
+  - name: Obstacle Rocks
+    uniqueID: 1093168595
     locked: 0
   - name: Ground
     uniqueID: 300663651

@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     private PlayerMeleeAttack playerMeleeAttack;
     private PlayerPoints playerPoints;
 
-    private int dynamitePackQuantity = 0;
+    private bool dynamitePackPicked = false;
     private bool isGameWin = false;
     private bool isGameOver = false;
 
@@ -104,8 +104,8 @@ public class GameManager : MonoBehaviour
         playerMovement.ActivateDoubleJump();
     }
 
-    internal void AddDynamitePack()
+    public void SetDynamitePack()
     {
-        dynamitePackQuantity++;
+        dynamitePackPicked = true;
     }
 }

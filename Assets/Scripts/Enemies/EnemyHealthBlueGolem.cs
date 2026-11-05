@@ -2,26 +2,25 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemySkeletonHealth : MonoBehaviour
+public class EnemyHealthBlueGolem : EnemiesHealth
 {
-    public event Action onSkeletonDie;
+    public event Action onBlueGolemDie;
 
-    [SerializeField] private EnemiesDataSo skeletonData;
-    [SerializeField] private Image fillHealthBar;
+    [SerializeField] private EnemiesDataSo blueGolemData;
+    [SerializeField] private Image healthBar;
     [SerializeField] private GameObject enemyDeathEffectPrefab;
 
     private float health = 0f;
 
     private void Start()
     {
-        health = skeletonData.blueGolemHealth;
+        health = blueGolemData.orangeGolemHealth;
     }
 
-    // Función para recibir daño.
-    public void ReceiveDamage(float damageAmount)
+    public override void ReceiveDamage(float damageAmount)
     {
         health -= damageAmount;
-        fillHealthBar.fillAmount = health / skeletonData.blueGolemHealth;
+        healthBar.fillAmount = health / blueGolemData.orangeGolemHealth;
 
         Die();
     }
@@ -30,7 +29,7 @@ public class EnemySkeletonHealth : MonoBehaviour
     {
         if (health < 1)
         {
-            onSkeletonDie?.Invoke();
+            onBlueGolemDie?.Invoke();
 
             Instantiate(enemyDeathEffectPrefab, transform.position, Quaternion.identity);
             gameObject.SetActive(false);

@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyOrangeGolemHealth : MonoBehaviour
+public class EnemyHealthOrangeGolem : EnemiesHealth
 {
     public event Action onOrangeGolemDie;
 
@@ -17,8 +17,7 @@ public class EnemyOrangeGolemHealth : MonoBehaviour
         health = orangeGolemData.orangeGolemHealth;
     }
 
-    // Función para recibir daño.
-    public void ReceiveDamage(float damageAmount)
+    public override void ReceiveDamage(float damageAmount)
     {
         health -= damageAmount;
         healthBar.fillAmount = health / orangeGolemData.orangeGolemHealth;

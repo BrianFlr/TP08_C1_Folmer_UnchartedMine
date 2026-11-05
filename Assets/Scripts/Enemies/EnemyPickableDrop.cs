@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class EnemyPickableDrop : MonoBehaviour
 {
-    private EnemySkeletonHealth enemySkeletonHealth;
-    private EnemyOrangeGolemHealth enemyOrangeGolemHealth;
+
+    private EnemyHealthOrangeGolem enemyOrangeGolemHealth;
 
     [Header("Pickables Array")]
     [SerializeField] private GameObject[] pickables;
@@ -12,13 +12,8 @@ public class EnemyPickableDrop : MonoBehaviour
 
     private void Awake()
     {
-        enemySkeletonHealth = GetComponent<EnemySkeletonHealth>();
-        enemyOrangeGolemHealth = GetComponent<EnemyOrangeGolemHealth>();
-
-        if(enemySkeletonHealth != null)
-        {
-            enemySkeletonHealth.onSkeletonDie += SpawnPickable;
-        }
+        //enemySkeletonHealth = GetComponent<EnemySkeletonHealth>();
+        enemyOrangeGolemHealth = GetComponent<EnemyHealthOrangeGolem>();
 
         if(enemyOrangeGolemHealth != null)
         {
@@ -28,10 +23,6 @@ public class EnemyPickableDrop : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (enemySkeletonHealth != null)
-        {
-            enemySkeletonHealth.onSkeletonDie -= SpawnPickable;
-        }
 
         if (enemyOrangeGolemHealth != null)
         {
