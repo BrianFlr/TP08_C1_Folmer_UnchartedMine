@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
 
 public class ItemDynamitePack : MonoBehaviour
 {
@@ -25,15 +23,20 @@ public class ItemDynamitePack : MonoBehaviour
         dynamitePackTimer = data.dynamitePackTimer;
     }
 
-    public void CallActiveDynamitePack()
+    private void OnEnable()
     {
         StartCoroutine(ActiveDynamitePack());
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, dynamitePackDamageRange);
+    }
+
     private IEnumerator ActiveDynamitePack()
     {
-        gameObject.SetActive(true);
-        animator.Play("DynamitePackActive");
+        //animator.Play("DynamitePackActive");
 
         yield return new WaitForSeconds(dynamitePackTimer);
 
@@ -45,6 +48,8 @@ public class ItemDynamitePack : MonoBehaviour
             DamageEnemies(gameObject);
             DamageMiningNode(gameObject);
         }
+
+        Destroy(gameObject);
     }
 
     private void DamagePlayer(Collider2D player)

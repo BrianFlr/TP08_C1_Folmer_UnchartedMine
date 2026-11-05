@@ -10,6 +10,7 @@ public class PlayerDataSo : ScriptableObject
     public KeyCode moveRight = KeyCode.D;
     public KeyCode moveLeft = KeyCode.A;
     public MouseButton meleeAttack = MouseButton.Left;
+    public KeyCode placeItem = KeyCode.E;
 
     [Header("Stats")]
     [Range (1,150)]public float health = 100.0f;
