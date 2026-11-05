@@ -19,7 +19,7 @@ TagManager:
   - Minerals
   - Pickables
   - Obstacle Rocks
-  - 
+  - Usable Items
   - 
   - 
   - 
@@ -67,6 +67,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3945077357
+    locked: 0
+  - name: Usable Items
+    uniqueID: 1356737109
+    locked: 0
+  - name: Usable Items Effects
+    uniqueID: 1721283993
     locked: 0
   - name: Pickups
     uniqueID: 4212485687
