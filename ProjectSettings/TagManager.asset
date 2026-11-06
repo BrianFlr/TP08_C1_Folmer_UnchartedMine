@@ -41,11 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 'Rocks Background '
+    uniqueID: 521498875
+    locked: 0
+  - name: Bricks Background
+    uniqueID: 140275035
+    locked: 0
   - name: Platforms Background
     uniqueID: 181773881
     locked: 0
-  - name: 'Ground Background '
-    uniqueID: 521498875
+  - name: Crystal Background
+    uniqueID: 2732681183
     locked: 0
   - name: Enemies Effects
     uniqueID: 3458960703
