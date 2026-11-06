@@ -39,19 +39,9 @@ public class GameManager : MonoBehaviour
         playerHealth.onPlayerHealthChange -= GameOver;
     }
 
-    public void SetCollectablePickedCounter()
+    public void GameWin()
     {
-        //collectableCounter++;
-
-        GameWin();
-    }
-
-    private void GameWin()
-    {
-        /*if(collectableCounter == 3)
-        {
-            isGameWin = true;
-        }*/
+        isGameWin = true;
     }
 
     public bool GetIsGameWinState()
@@ -76,17 +66,12 @@ public class GameManager : MonoBehaviour
     {
         isGameWin = false;
         isGameOver = false;
-        //collectableCounter = 0;
+        dynamitePackPicked = false;
     }
 
-    public void AddPlayerPoints(float pointsValue)
+    public void ActivateDoubleJump()
     {
-        playerPoints.AddPlayerPoints(pointsValue);
-    }
-
-    public float GetPlayerPoints()
-    {
-        return playerPoints.GetPlayerPointsValue();
+        playerMovement.ActivateDoubleJump();
     }
 
     public void AddPlayerHealth(float healthAmount)
@@ -99,13 +84,23 @@ public class GameManager : MonoBehaviour
         playerMeleeAttack.SetMeleeDamage(damageMeleeAmount);
     }
 
-    public void ActivateDoubleJump()
+    public void AddPlayerPoints(float pointsValue)
     {
-        playerMovement.ActivateDoubleJump();
+        playerPoints.AddPlayerPoints(pointsValue);
+    }
+
+    public float GetPlayerPoints()
+    {
+        return playerPoints.GetPlayerPointsValue();
     }
 
     public void SetDynamitePack()
     {
         dynamitePackPicked = true;
+    }
+
+    public bool GetDynamitePackPickedState()
+    {
+        return dynamitePackPicked;
     }
 }
