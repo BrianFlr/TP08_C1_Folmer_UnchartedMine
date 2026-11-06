@@ -1,26 +1,24 @@
 using System.Collections;
 using UnityEngine;
+using static UnityEngine.LowLevelPhysics2D.PhysicsShape.SurfaceMaterial;
 
 public class ItemDynamitePack : MonoBehaviour
 {
     [SerializeField] private UsableItemsDataSo data;
     [SerializeField] private LayerMask hitMask;
-    private Animator animator;
+    [SerializeField] private GameObject explosionEffectPrefab;
 
     private float dynamitePackDamage = 0f;
     private float dynamitePackDamageRange = 0f;
     private float dynamitePackTimer = 0f;
-
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
 
     private void Start()
     {
         dynamitePackDamage = data.dynamitePackDamage;
         dynamitePackDamageRange = data.dynamitePackDamageRange;
         dynamitePackTimer = data.dynamitePackTimer;
+
+        gameObject.SetActive(false);
     }
 
     private void OnEnable()
@@ -36,8 +34,6 @@ public class ItemDynamitePack : MonoBehaviour
 
     private IEnumerator ActiveDynamitePack()
     {
-        //animator.Play("DynamitePackActive");
-
         yield return new WaitForSeconds(dynamitePackTimer);
 
         Collider2D[] damagedGameObjects = Physics2D.OverlapCircleAll(transform.position, dynamitePackDamageRange, hitMask);
@@ -47,9 +43,12 @@ public class ItemDynamitePack : MonoBehaviour
             DamagePlayer(gameObject);
             DamageEnemies(gameObject);
             DamageMiningNode(gameObject);
+            DamageObstaclesRock(gameObject);
         }
 
-        Destroy(gameObject);
+        Instantiate(explosionEffectPrefab, transform.position, Quaternion.identity);
+        gameObject.SetActive(false);
+        GameManager.Instance.SetDynamitePack(false);
     }
 
     private void DamagePlayer(Collider2D player)
@@ -79,6 +78,16 @@ public class ItemDynamitePack : MonoBehaviour
         if (miningNodeHealth != null)
         {
             miningNodeHealth.ReceiveDamage(dynamitePackDamage);
+        }
+    }
+
+    private void DamageObstaclesRock(Collider2D obstacleRock)
+    {
+        ObstacleRockHealth obstacleRockHealth = obstacleRock.GetComponent<ObstacleRockHealth>();
+
+        if (obstacleRockHealth != null)
+        {
+            obstacleRockHealth.ReceiveDamage(dynamitePackDamage);
         }
     }
 }

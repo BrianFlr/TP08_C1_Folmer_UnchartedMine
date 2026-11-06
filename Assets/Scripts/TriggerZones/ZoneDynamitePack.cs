@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ZoneDynamitePackMarker : MonoBehaviour
+public class ZoneDynamitePack : MonoBehaviour
 {
     [SerializeField] private GameObject signE;
 

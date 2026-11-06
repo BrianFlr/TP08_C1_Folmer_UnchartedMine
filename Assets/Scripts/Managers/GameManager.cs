@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -94,9 +93,9 @@ public class GameManager : MonoBehaviour
         return playerPoints.GetPlayerPointsValue();
     }
 
-    public void SetDynamitePack()
+    public void SetDynamitePack(bool state)
     {
-        dynamitePackPicked = true;
+        dynamitePackPicked = state;
     }
 
     public bool GetDynamitePackPickedState()

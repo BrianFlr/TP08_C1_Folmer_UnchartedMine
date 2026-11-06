@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: UsableItemsData
   m_EditorClassIdentifier: Assembly-CSharp::UsableItemsDataSo
   dynamitePackDamage: 200
-  dynamitePackDamageRange: 20
+  dynamitePackDamageRange: 5.5
   dynamitePackTimer: 5

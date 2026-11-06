@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerUsableItems : MonoBehaviour
 {
     [SerializeField] private PlayerDataSo data;
-    [SerializeField] private GameObject dynamintePackPrefab;
+    [SerializeField] private GameObject dynamintePackObject;
 
     private bool isInPlaceItemZone = false;
 
@@ -11,7 +11,8 @@ public class PlayerUsableItems : MonoBehaviour
     {
         if (Input.GetKey(data.placeItem) && isInPlaceItemZone && GameManager.Instance.GetDynamitePackPickedState())
         {
-            Instantiate(dynamintePackPrefab, transform.position, Quaternion.identity);
+            dynamintePackObject.SetActive(true);
+            dynamintePackObject.transform.position = transform.position;
         }
     }
 
