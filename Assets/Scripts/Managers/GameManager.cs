@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
     private PlayerMeleeAttack playerMeleeAttack;
+    private PlayerImmortality playerImmortality;
     private PlayerPoints playerPoints;
 
     private bool dynamitePackPicked = false;
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
         playerMovement = player.GetComponent<PlayerMovement>();
         playerHealth = player.GetComponent<PlayerHealth>();
         playerMeleeAttack = player.GetComponent<PlayerMeleeAttack>();
+        playerImmortality = player.GetComponent<PlayerImmortality>();
         playerPoints = player.GetComponent<PlayerPoints>();
 
         playerHealth.onPlayerHealthChange += GameOver;
@@ -81,6 +83,11 @@ public class GameManager : MonoBehaviour
     public void SetMeleeDamage(float damageMeleeAmount)
     {
         playerMeleeAttack.SetMeleeDamage(damageMeleeAmount);
+    }
+
+    public void ActivatePlayerImmortality(float time)
+    {
+        playerImmortality.ActivateImmortality(time);
     }
 
     public void AddPlayerPoints(float pointsValue)

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PickableHealth : Pickables
 {
-    [SerializeField] PickablesDataSo data;
+    [SerializeField] private PickablesDataSo data;
     private float healthToAdd = 0f;
 
     private void Start()

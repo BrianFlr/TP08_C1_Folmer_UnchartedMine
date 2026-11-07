@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PickablesData
   m_EditorClassIdentifier: Assembly-CSharp::PickablesDataSo
   healthToAdd: 15
-  invulnerabilityTime: 5
-  damageToAdd: 2
+  invulnerabilityTime: 2.2
+  damageToSet: 10
