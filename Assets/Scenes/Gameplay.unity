@@ -57269,6 +57269,7 @@ GameObject:
   - component: {fileID: 1818702824}
   - component: {fileID: 1818702823}
   - component: {fileID: 1818702822}
+  - component: {fileID: 1818702825}
   - component: {fileID: 1818702820}
   - component: {fileID: 1818702819}
   m_Layer: 9
@@ -57412,6 +57413,21 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1818702825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818702818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200fd3cc8190613499aae88c35daaa4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPickableDrop
+  pickables:
+  - {fileID: 6687033201160772045, guid: 48ad71c3b67d12a4680613e049e46b01, type: 3}
+  - {fileID: 4897838273626946611, guid: ea31bd4091c3a014ba86ec74cfeee1b2, type: 3}
 --- !u!1 &1825571978
 GameObject:
   m_ObjectHideFlags: 0

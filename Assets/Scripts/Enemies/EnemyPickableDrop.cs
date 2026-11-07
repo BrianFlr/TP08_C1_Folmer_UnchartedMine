@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class EnemyPickableDrop : MonoBehaviour
 {
-
     private EnemyHealthOrangeGolem enemyOrangeGolemHealth;
 
     [Header("Pickables Array")]
@@ -12,7 +11,6 @@ public class EnemyPickableDrop : MonoBehaviour
 
     private void Awake()
     {
-        //enemySkeletonHealth = GetComponent<EnemySkeletonHealth>();
         enemyOrangeGolemHealth = GetComponent<EnemyHealthOrangeGolem>();
 
         if(enemyOrangeGolemHealth != null)
@@ -35,17 +33,13 @@ public class EnemyPickableDrop : MonoBehaviour
     {
         randomValue = Random.Range(0f, 100.0f);
 
-        if(randomValue >= 30f && randomValue <= 100f)
+        if(randomValue <= 50f)
         {
             idPickable = 0;
         }
-        else if (randomValue >= 15f && randomValue <= 29f)
-        {
-            idPickable = 1;
-        }
         else
         {
-            idPickable = 2;
+            idPickable = 1;
         }
 
         GameObject pickable = pickables[idPickable];
