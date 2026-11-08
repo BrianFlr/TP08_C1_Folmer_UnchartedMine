@@ -12,17 +12,12 @@ public class ItemDynamitePack : MonoBehaviour
     private float dynamitePackDamageRange = 0f;
     private float dynamitePackTimer = 0f;
 
-    private void Start()
+    private void OnEnable()
     {
         dynamitePackDamage = data.dynamitePackDamage;
         dynamitePackDamageRange = data.dynamitePackDamageRange;
         dynamitePackTimer = data.dynamitePackTimer;
 
-        gameObject.SetActive(false);
-    }
-
-    private void OnEnable()
-    {
         StartCoroutine(ActiveDynamitePack());
     }
 
