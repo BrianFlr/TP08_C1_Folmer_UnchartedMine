@@ -83,6 +83,9 @@ TagManager:
   - name: Usable Items Effects
     uniqueID: 1721283993
     locked: 0
+  - name: Minerals
+    uniqueID: 4034033881
+    locked: 0
   - name: Pickups
     uniqueID: 4212485687
     locked: 0

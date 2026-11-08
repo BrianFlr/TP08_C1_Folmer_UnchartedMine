@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1ee7e6c4e51d2442bfd900baec6bc62, type: 3}
   m_Name: MineralsData
   m_EditorClassIdentifier: Assembly-CSharp::MineralsDataSo
+  noCollisionTime: 0.8
+  spawnImpulseForce: 5
   pointsToAddCommon: 5
   pointsToAddRare: 10
   pointsToAddVeryRare: 15
+  pointsToAddUltraRare: 25

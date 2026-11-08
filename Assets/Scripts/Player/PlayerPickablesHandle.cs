@@ -25,6 +25,16 @@ public class PlayerPickablesHandle : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Pickables pick = other.gameObject.GetComponent<Pickables>();
+
+        if (pick != null)
+        {
+            pick.Pick();
+        }
+    }
+
     private void SetPickableSprite(GameObject other)
     {
         SpriteRenderer sr = other.GetComponentInChildren<SpriteRenderer>();

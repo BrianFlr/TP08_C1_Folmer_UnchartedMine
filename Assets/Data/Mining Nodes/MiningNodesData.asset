@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc9ecec0e0e30cd4498fc4da587fbf20, type: 3}
   m_Name: MiningNodesData
   m_EditorClassIdentifier: Assembly-CSharp::MiningNodesDataSo
-  health: 50
-  statesQuantity: 3
+  grayNodeHealth: 15
+  grayStatesQuantity: 3
+  blueNodeHealth: 25
+  blueStatesQuantity: 3
+  redNodeHealth: 30
+  redStatesQuantity: 3
+  purpleNodeHealth: 45
+  purpleStatesQuantity: 3
