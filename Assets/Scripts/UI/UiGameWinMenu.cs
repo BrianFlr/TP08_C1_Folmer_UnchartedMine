@@ -9,6 +9,7 @@ public class UiGameWinMenu : MonoBehaviour
     [SerializeField] private GameObject canvasGameWin;
 
     [Header("Canvas GameOver Text")]
+    [SerializeField] private TMP_Text textMaxPlayerPoints;
     [SerializeField] private TMP_Text textPlayerPoints;
 
     [Header("Buttons")]
@@ -41,6 +42,7 @@ public class UiGameWinMenu : MonoBehaviour
         Time.timeScale = 0;
 
         // Muestro los puntos del player.
+        textMaxPlayerPoints.text = GameManager.Instance.GetMaxPlayerPoints().ToString("0");
         textPlayerPoints.text = GameManager.Instance.GetPlayerPoints().ToString("0");
 
         // Activo el canvas de ganar o perder.

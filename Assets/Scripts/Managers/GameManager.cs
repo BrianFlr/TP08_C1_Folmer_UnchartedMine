@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -55,6 +56,8 @@ public class GameManager : MonoBehaviour
         if (playerHealth.GetHealthValue() < 1)
         {
             isGameOver = true;
+
+            playerPoints.SaveMaxScorePrefs();
         }
     }
 
@@ -98,6 +101,11 @@ public class GameManager : MonoBehaviour
     public float GetPlayerPoints()
     {
         return playerPoints.GetPlayerPointsValue();
+    }
+
+    public float GetMaxPlayerPoints()
+    {
+        return playerPoints.GetMaxPlayerPointsValue();
     }
 
     public void SetDynamitePack(bool state)
