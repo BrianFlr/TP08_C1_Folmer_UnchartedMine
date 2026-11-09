@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5473515694ee13f4cacd5f58badca6f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreditsMenu
+  soundData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
   activeCanvas: {fileID: 8606125276524511585}
   returnCanvas: {fileID: 0}
   btnBack: {fileID: 3594298974170356200}

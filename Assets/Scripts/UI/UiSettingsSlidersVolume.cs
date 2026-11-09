@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class UiSettingsMenu : MonoBehaviour
 {
+    [Header("Audio Volume Data")]
+    [SerializeField] private AudioSettingsDataSo audioData;
+
     [Header("Audio Mixer")]
     [SerializeField] private AudioMixer audioMixer;
 
@@ -23,21 +26,10 @@ public class UiSettingsMenu : MonoBehaviour
 
     private void Start()
     {
-        float volume = 0f;
-        const float volumeConstant = 80f;
-
-        audioMixer.GetFloat("VolumeMaster", out volume);
-        sliderMaster.value = volume + volumeConstant;
-
-        audioMixer.GetFloat("VolumeBackground", out volume);
-        sliderBackground.value = volume + volumeConstant;
-        
-        audioMixer.GetFloat("VolumeSfx", out volume);
-        sliderSfx.value = volume + volumeConstant;
-        
-        audioMixer.GetFloat("VolumeUi", out volume);
-        sliderUi.value = volume + volumeConstant;
-
+        sliderMaster.value = audioData.volumeMaster;
+        sliderBackground.value = audioData.volumeMusic;
+        sliderSfx.value = audioData.volumeSfx;
+        sliderUi.value = audioData.volumeUi;
     }
 
     private void OnDestroy()
@@ -72,7 +64,7 @@ public class UiSettingsMenu : MonoBehaviour
     // Funcion para transformar el valor de las sliders (lineal), a un valor lo más cercano al del mixer (decibelios)
     private void ModifyMixerVolume(string volumeVariableName, float volumeValue)
     {
-        float finalVolume = Mathf.Clamp(Mathf.Log10(volumeValue) * 50f, -80f, 0); // Se limita entre estos valores para que no se vaya a -infinito
+        float finalVolume = Mathf.Clamp(Mathf.Log10(volumeValue / 100f) * 20f, -80f, 0); // Se limita entre estos valores para que no se vaya a -infinito
         audioMixer.SetFloat(volumeVariableName, finalVolume);
     }
 }

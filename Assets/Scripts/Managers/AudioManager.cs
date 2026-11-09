@@ -25,24 +25,28 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void PlayMusic(AudioClip audioClip)
+    private void Start()
+    {
+        PlayMusic(musicData.mainMenuMusic, true);
+    }
+
+    public void PlayMusic(AudioClip audioClip, bool loop)
     {
         if (musicAudioSource.clip == audioClip && musicAudioSource.isPlaying) return;
 
         musicAudioSource.clip = audioClip;
-        musicAudioSource.loop = true;
+        musicAudioSource.loop = loop;
         musicAudioSource.Play();
     }
 
-    public void PlayUi(UiSoundDataSo uiData)
+    public void PlayUi(AudioClip audioClip)
     {
-        AudioClip clip = uiData.buttonSounds[Random.Range(0, uiData.buttonSounds.Length)];
-        uiAudioSource.PlayOneShot(clip);
+        uiAudioSource.PlayOneShot(audioClip);
     }
 
     public void PlaySfx(AudioClip[] sfxList)
     {
-        AudioClip clip = sfxList[Random.Range(0, uiData.buttonSounds.Length)];
+        AudioClip clip = sfxList[Random.Range(0, sfxList.Length)];
         sfxAudioSource.PlayOneShot(clip);
     }
 }

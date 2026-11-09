@@ -5,6 +5,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public event Action onGameWin;
+    public event Action onGameOver;
+
     [SerializeField] private GameObject player;
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
@@ -13,8 +16,6 @@ public class GameManager : MonoBehaviour
     private PlayerPoints playerPoints;
 
     private bool dynamitePackPicked = false;
-    private bool isGameWin = false;
-    private bool isGameOver = false;
 
     private void Awake()
     {
@@ -43,33 +44,21 @@ public class GameManager : MonoBehaviour
 
     public void GameWin()
     {
-        isGameWin = true;
-    }
-
-    public bool GetIsGameWinState()
-    {
-        return isGameWin;
+        onGameWin?.Invoke();
     }
 
     private void GameOver()
     {
         if (playerHealth.GetHealthValue() < 1)
         {
-            isGameOver = true;
-
             playerPoints.SaveMaxScorePrefs();
-        }
-    }
 
-    public bool GetIsGameOverState()
-    {
-        return isGameOver;
+            onGameOver?.Invoke();
+        }
     }
 
     public void ResetGameState()
     {
-        isGameWin = false;
-        isGameOver = false;
         dynamitePackPicked = false;
     }
 

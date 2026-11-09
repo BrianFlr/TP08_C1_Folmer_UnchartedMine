@@ -7,10 +7,10 @@ public class PlayerMeleeAttack : MonoBehaviour
     public event Action onPlayerAttack;
 
     [SerializeField] private PlayerDataSo playerData;
+    [SerializeField] private SoundEffectsDataSo sfxData;
     [SerializeField] private LayerMask hitMask;
     [SerializeField] private Transform attackPoint;
     private PlayerMovement PlayerMovement;
-    private Rigidbody2D rb;
 
     private bool isAttacking = false;
 
@@ -23,7 +23,6 @@ public class PlayerMeleeAttack : MonoBehaviour
     private void Awake()
     {
         PlayerMovement = GetComponent<PlayerMovement>();
-        rb = GetComponent<Rigidbody2D>(); 
     }
 
     private void Start()
@@ -71,6 +70,8 @@ public class PlayerMeleeAttack : MonoBehaviour
         }
 
         isAttacking = false;
+
+        AudioManager.Instance.PlaySfx(sfxData.playerAttackSounds);
     }
 
     public bool GetAttackingState()

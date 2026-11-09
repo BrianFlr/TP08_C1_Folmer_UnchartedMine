@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class UiPauseMenu : MonoBehaviour
 {
+    [Header("Sound Data")]
+    [SerializeField] private UiSoundDataSo soundData;
+    [SerializeField] private MusicDataSo musicData;
+
     [Header("Canvas")]
     [SerializeField] private GameObject pauseCanvas;
     [SerializeField] private GameObject settingsCanvas;
@@ -72,6 +76,7 @@ public class UiPauseMenu : MonoBehaviour
     // Eventos de botones
     private void OnContinueClicked()
     {
+        AudioManager.Instance.PlayUi(soundData.buttonSound);
 
         // Quito el estado de pausa
         ResetPauseState();
@@ -82,6 +87,7 @@ public class UiPauseMenu : MonoBehaviour
 
     private void OnSettingsClicked()
     {
+        AudioManager.Instance.PlayUi(soundData.buttonSound);
 
         // Activo el panel de Configuracion
         settingsCanvas.SetActive(true);
@@ -89,6 +95,7 @@ public class UiPauseMenu : MonoBehaviour
 
     private void OnCreditsClicked()
     {
+        AudioManager.Instance.PlayUi(soundData.buttonSound);
 
         // Activo el panel de Creditos
         creditsCanvas.SetActive(true);
@@ -103,6 +110,9 @@ public class UiPauseMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
 
         GameManager.Instance.ResetGameState();
+
+        AudioManager.Instance.PlayUi(soundData.buttonSound);
+        AudioManager.Instance.PlayMusic(musicData.mainMenuMusic, true);
     }
 
     // Función que resetea el estado de pausa

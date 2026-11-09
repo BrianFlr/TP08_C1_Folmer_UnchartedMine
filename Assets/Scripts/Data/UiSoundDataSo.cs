@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class UiSoundDataSo : ScriptableObject
 {
-    public AudioClip[] buttonSounds;
+    public AudioClip buttonSound;
 }

@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class UiGameWinMenu : MonoBehaviour
 {
+    [Header("Audio Data")]
+    [SerializeField] private UiSoundDataSo uiSoundData;
+    [SerializeField] private MusicDataSo musicData;
+
     [Header("Canvas GameOver")]
     [SerializeField] private GameObject canvasGameWin;
 
@@ -22,18 +26,18 @@ public class UiGameWinMenu : MonoBehaviour
         btnExit.onClick.AddListener(OnExitClicked);
     }
 
-    private void Update()
+    private void Start()
     {
-        if (GameManager.Instance.GetIsGameWinState())
-        {
-            GameWin();
-        }
+        // Lo suscribo en el start porque el orden de ejecución hacía que el game manager se creara después que el canvas.
+        GameManager.Instance.onGameWin += GameWin;
     }
 
     private void OnDestroy()
     {
         btnRestart.onClick.RemoveAllListeners();
         btnExit.onClick.RemoveAllListeners();
+
+        GameManager.Instance.onGameWin -= GameWin;
     }
 
     private void GameWin()
@@ -47,6 +51,8 @@ public class UiGameWinMenu : MonoBehaviour
 
         // Activo el canvas de ganar o perder.
         canvasGameWin.SetActive(true);
+
+        AudioManager.Instance.PlayMusic(musicData.gameWinMusic, false);
     }
 
     // Eventos de botones
@@ -62,6 +68,8 @@ public class UiGameWinMenu : MonoBehaviour
         canvasGameWin.SetActive(false);
 
         GameManager.Instance.ResetGameState();
+
+        AudioManager.Instance.PlayMusic(musicData.gameplayMusic, true);
     }
 
     private void OnExitClicked()
@@ -76,5 +84,7 @@ public class UiGameWinMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
 
         GameManager.Instance.ResetGameState();
+
+        AudioManager.Instance.PlayMusic(musicData.mainMenuMusic, true);
     }
 }

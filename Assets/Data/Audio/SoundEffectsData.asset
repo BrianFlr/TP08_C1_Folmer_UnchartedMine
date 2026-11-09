@@ -15,11 +15,13 @@ MonoBehaviour:
   playerWalkSounds: []
   playerJumpSounds:
   - {fileID: 8300000, guid: c620d9f9c4a9542498bafee3cbb4373d, type: 3}
+  - {fileID: 8300000, guid: d7755a9ee0ff28a4ebe686f9d0c585e7, type: 3}
   playerAttackSounds:
   - {fileID: 8300000, guid: 1e839f40598b9f849a125dc6a929da1b, type: 3}
   - {fileID: 8300000, guid: 06550396a4086454a91d762a8dbb1c0d, type: 3}
   - {fileID: 8300000, guid: 82a4ceb5af3349d4893df3de0aba39cd, type: 3}
-  playerHurtSounds: []
+  playerHurtSounds:
+  - {fileID: 8300000, guid: 94f6b31af2da4eb4fb5084c71074874b, type: 3}
   playerDieSounds:
   - {fileID: 8300000, guid: 7526330a1c844214faeb4f7ef94d19c0, type: 3}
   golemWalkSounds: []

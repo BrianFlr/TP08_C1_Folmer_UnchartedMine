@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private PlayerDataSo data;
+    [SerializeField] private SoundEffectsDataSo sfxData;
     [SerializeField] private LayerMask layerGround;
     private PlayerMeleeAttack playerAttack;
 
@@ -108,12 +109,15 @@ public class PlayerMovement : MonoBehaviour
 
             isJump = true;
 
+            AudioManager.Instance.PlaySfx(sfxData.playerJumpSounds);
         }
         else if (isJump && isDoubleJumpActivate)
         {
             rb.linearVelocity = new Vector2(0, 1) * playerDoubleJumpForce;
 
             isJump = false;
+
+            AudioManager.Instance.PlaySfx(sfxData.playerJumpSounds);
         }
     }
 

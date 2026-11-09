@@ -1573,6 +1573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 291662b877927904a8447207a888afa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiGameWinMenu
+  uiSoundData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
+  musicData: {fileID: 11400000, guid: 06bad2d06d68bb8409a23a105dd59bbb, type: 2}
   canvasGameWin: {fileID: 1578361990}
   textMaxPlayerPoints: {fileID: 166457606}
   textPlayerPoints: {fileID: 2075856935}
@@ -3971,68 +3973,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7518185277260249109, guid: 2709dc2d68406d24bb282056508ecded, type: 3}
   m_PrefabInstance: {fileID: 2017107043}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &775330683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 775330684}
-  m_Layer: 0
-  m_Name: BackgroundAudioSource
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &775330684
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775330683}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.27722, y: 18.56636, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &777403861
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 777403862}
-  m_Layer: 0
-  m_Name: SfxAudioSource
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &777403862
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777403861}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.27722, y: 18.56636, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778221166
 GameObject:
   m_ObjectHideFlags: 0
@@ -10647,37 +10587,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &855123416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 855123417}
-  m_Layer: 0
-  m_Name: UiAudioSource
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &855123417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855123416}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.27722, y: 18.56636, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &872067838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7518185277260249109, guid: 2709dc2d68406d24bb282056508ecded, type: 3}
@@ -42504,6 +42413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f6316ecfb5cd249ad7ec0e0952cee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiPauseMenu
+  soundData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
+  musicData: {fileID: 11400000, guid: 06bad2d06d68bb8409a23a105dd59bbb, type: 2}
   pauseCanvas: {fileID: 1314842544}
   settingsCanvas: {fileID: 1036055712}
   creditsCanvas: {fileID: 1228555169}
@@ -45055,6 +44966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36b5824531e637849a59976852a97f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiWinTieMenu
+  uiSoundData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
+  musicData: {fileID: 11400000, guid: 06bad2d06d68bb8409a23a105dd59bbb, type: 2}
   canvasGameOver: {fileID: 430262765}
   textMaxPlayerPoints: {fileID: 1225114730}
   textPlayerPoints: {fileID: 1121474968}
@@ -46155,6 +46068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   data: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
   layerGround:
     serializedVersion: 2
     m_Bits: 128
@@ -46171,6 +46085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMeleeAttack
   playerData: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
   hitMask:
     serializedVersion: 2
     m_Bits: 1536
@@ -68918,6 +68833,3 @@ SceneRoots:
   - {fileID: 1228555168}
   - {fileID: 1036055711}
   - {fileID: 126298283}
-  - {fileID: 775330684}
-  - {fileID: 777403862}
-  - {fileID: 855123417}
