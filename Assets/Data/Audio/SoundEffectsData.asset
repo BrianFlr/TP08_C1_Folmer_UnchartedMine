@@ -43,5 +43,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 759a3c2c571043f488640d0c0235beec, type: 3}
   dynamiteLiteSound: []
   dynamiteExplosionSound: []
-  spawnSounds: []
-  pickSounds: []
+  spawnSounds:
+  - {fileID: 8300000, guid: 669808c26725b144fb0be9a57ba27009, type: 3}
+  - {fileID: 8300000, guid: f7333ade9726f9c40bd073215c8f89d5, type: 3}
+  - {fileID: 8300000, guid: dbe0717b1bd80a049be19111e66827f9, type: 3}
+  - {fileID: 8300000, guid: ec49f6a1449fde64cb3e4b731c0a01c8, type: 3}
+  - {fileID: 8300000, guid: 192fe574e7ced5f41b29d96857394ba1, type: 3}
+  pickSounds:
+  - {fileID: 8300000, guid: 02247c17bffccc9418993a62f73a3c5c, type: 3}
+  - {fileID: 8300000, guid: 627ec796250820d44a48a88781e28187, type: 3}
+  - {fileID: 8300000, guid: ba0a31eb5cc20d0468228cc0bdde6889, type: 3}

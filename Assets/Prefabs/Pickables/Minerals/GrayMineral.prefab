@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -260933415
-  m_SortingLayer: 15
+  m_SortingLayer: 16
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2057508586763875159, guid: 51c465b6a3709404097fd7ddc89f6c43, type: 3}
@@ -162,6 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickableGrayMineral
   data: {fileID: 11400000, guid: 17700c32bcd8f9e41bd841a7d372bd8b, type: 2}
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
   rb: {fileID: 6524797828437670286}
   pointsToAdd: 0
 --- !u!58 &7213414806247485930
