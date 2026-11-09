@@ -6,4 +6,6 @@ public class MusicDataSo : ScriptableObject
 {
     public AudioClip mainMenuMusic;
     public AudioClip gameplayMusic;
+    public AudioClip gameOverMusic;
+    public AudioClip gameWinMusic;
 }

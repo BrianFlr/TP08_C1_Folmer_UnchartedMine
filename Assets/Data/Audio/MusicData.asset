@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b03fe38c878504ab33e5a222f713a7, type: 3}
   m_Name: MusicData
   m_EditorClassIdentifier: Assembly-CSharp::MusicDataSo
-  mainMenuMusic: {fileID: 0}
-  gameplayMusic: {fileID: 0}
+  mainMenuMusic: {fileID: 8300000, guid: 8a424d9783555c24da56a2dfb76bd777, type: 3}
+  gameplayMusic: {fileID: 8300000, guid: b192d6600f9f60c4c814e7e6c724daf3, type: 3}
+  gameOverMusic: {fileID: 8300000, guid: 5dfcaa8c169b2c94bb00bb3d0bd9e0c5, type: 3}
+  gameWinMusic: {fileID: 8300000, guid: 058e69d20b418974983384e822f582f1, type: 3}
