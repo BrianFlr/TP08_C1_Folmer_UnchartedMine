@@ -7,6 +7,7 @@ public class EnemyHealthBlueGolem : EnemiesHealth
     public event Action onBlueGolemDie;
 
     [SerializeField] private EnemiesDataSo blueGolemData;
+    [SerializeField] private SoundEffectsDataSo sfxData;
     [SerializeField] private Image healthBar;
     [SerializeField] private GameObject enemyDeathEffectPrefab;
 
@@ -22,6 +23,7 @@ public class EnemyHealthBlueGolem : EnemiesHealth
         health -= damageAmount;
         healthBar.fillAmount = health / blueGolemData.orangeGolemHealth;
 
+        AudioManager.Instance.PlaySfx(sfxData.golemHurtSounds);
         Die();
     }
 
@@ -32,6 +34,8 @@ public class EnemyHealthBlueGolem : EnemiesHealth
             onBlueGolemDie?.Invoke();
 
             Instantiate(enemyDeathEffectPrefab, transform.position, Quaternion.identity);
+            AudioManager.Instance.PlaySfx(sfxData.golemDieSounds);
+
             gameObject.SetActive(false);
         }
     }

@@ -111,7 +111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -343676697
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3499944936518720492, guid: 0442cc4b841a792429d7932ced7a2e04, type: 3}
@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBlueGolem
   blueGolemData: {fileID: 11400000, guid: dfa9b8269a9c2574cb00074eb6da87d3, type: 2}
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
   healthBar: {fileID: 4973724078048483215}
   enemyDeathEffectPrefab: {fileID: 7950310286711008598, guid: c2ecf66f77a0b8f4cac0e9feb15f99dd, type: 3}
 --- !u!114 &4449977921619322277
@@ -228,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46e5e0e04adf944b89cd173dfcdd2fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBlueGolemDamage
-  orangeGolemData: {fileID: 11400000, guid: dfa9b8269a9c2574cb00074eb6da87d3, type: 2}
+  data: {fileID: 11400000, guid: dfa9b8269a9c2574cb00074eb6da87d3, type: 2}
 --- !u!114 &1048012191105573699
 MonoBehaviour:
   m_ObjectHideFlags: 0

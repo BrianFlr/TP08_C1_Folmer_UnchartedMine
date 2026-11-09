@@ -69,7 +69,7 @@ public class UiGameWinMenu : MonoBehaviour
 
         GameManager.Instance.ResetGameState();
 
-        AudioManager.Instance.PlayUi(buttonSounds);
+        AudioManager.Instance.PlayUi(uiSoundData.buttonSound);
         AudioManager.Instance.PlayMusic(musicData.gameplayMusic, true);
     }
 

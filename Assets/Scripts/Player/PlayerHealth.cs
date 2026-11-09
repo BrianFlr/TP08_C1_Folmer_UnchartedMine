@@ -43,6 +43,8 @@ public class PlayerHealth : MonoBehaviour
 
         onPlayerHealthChange?.Invoke();
 
+        AudioManager.Instance.PlaySfx(sfxData.playerHurtSounds);
+
         DieSound();
     }
 
