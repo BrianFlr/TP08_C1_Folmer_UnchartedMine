@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: World Background
+    uniqueID: 1876701813
+    locked: 0
   - name: 'Rocks Background '
     uniqueID: 521498875
     locked: 0
