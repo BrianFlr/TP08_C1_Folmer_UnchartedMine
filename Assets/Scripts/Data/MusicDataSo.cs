@@ -1,16 +1,9 @@
 using UnityEngine;
 
-public class Music : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "MusicData", menuName = "Data/Audio/MusicData")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class MusicDataSo : ScriptableObject
+{
+    public AudioClip mainMenuMusic;
+    public AudioClip gameplayMusic;
 }

@@ -6,22 +6,22 @@ public class ZoneDynamitePack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerInZoneChecker(other.gameObject, true);
+        PlayerInZoneChecker(other.gameObject);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        PlayerInZoneChecker(other.gameObject, false);
+        signE.SetActive(false);
     }
 
-    private void PlayerInZoneChecker(GameObject other, bool state)
+    private void PlayerInZoneChecker(GameObject other)
     {
         PlayerUsableItems player = other.GetComponent<PlayerUsableItems>();
 
         if (player != null && GameManager.Instance.GetDynamitePackPickedState())
         {
-            player.SetInPlaceItemZone(state);
-            signE.SetActive(state);
+            player.SetInPlaceItemZone(true);
+            signE.SetActive(true);
         }
     }
 }

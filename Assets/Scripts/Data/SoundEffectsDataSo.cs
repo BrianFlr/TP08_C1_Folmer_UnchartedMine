@@ -1,16 +1,27 @@
 using UnityEngine;
 
-public class SoundEffectsDataSo : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "SoundEffectsData", menuName = "Data/Audio/SoundEffectsData")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class SoundEffectsDataSo : ScriptableObject
+{
+    [Header("Player Sfx")]
+    public AudioClip[] playerWalkSounds;
+    public AudioClip[] playerJumpSounds;
+    public AudioClip[] playerAttackSounds;
+    public AudioClip[] playerHurtSounds;
+    public AudioClip[] playerDieSounds;
+
+    [Header("Golems Sfx")]
+    public AudioClip[] golemWalkSounds;
+    public AudioClip[] golemAttackSounds;
+    public AudioClip[] golemHurtSounds;
+    public AudioClip[] golemDieSounds;
+
+    [Header("Items Sfx")]
+    public AudioClip[] dynamiteLiteSound;
+    public AudioClip[] dynamiteExplosionSound;
+
+    [Header("Pickables Sfx")]
+    public AudioClip[] spawnSounds;
+    public AudioClip[] pickSounds;
 }
