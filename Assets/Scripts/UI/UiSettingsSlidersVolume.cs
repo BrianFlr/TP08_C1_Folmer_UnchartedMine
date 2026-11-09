@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class UiSettingsMenu : MonoBehaviour
 {
@@ -44,21 +45,25 @@ public class UiSettingsMenu : MonoBehaviour
     private void OnVolumeMasterChanged(float value)
     {
         ModifyMixerVolume("VolumeMaster", value);
+        audioData.volumeMaster = value;
     }
 
     private void OnVolumeBackgroundChanged(float value)
     {
         ModifyMixerVolume("VolumeBackground", value);
+        audioData.volumeMusic = value;
     }
 
     private void OnVolumeSfxChanged(float value)
     {
         ModifyMixerVolume("VolumeSfx", value);
+        audioData.volumeSfx = value;
     }
 
     private void OnVolumeUiChanged(float value)
     {
         ModifyMixerVolume("VolumeUi", value);
+        audioData.volumeUi = value;
     }
 
     // Funcion para transformar el valor de las sliders (lineal), a un valor lo más cercano al del mixer (decibelios)

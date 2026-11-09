@@ -3,6 +3,7 @@ using UnityEngine;
 public class PickableShield : Pickables
 {
     [SerializeField] private PickablesDataSo data;
+    [SerializeField] private SoundEffectsDataSo sfxData;
 
     private float invulnerabilityTime = 0f;
 
@@ -15,5 +16,7 @@ public class PickableShield : Pickables
     {
         GameManager.Instance.ActivatePlayerImmortality(invulnerabilityTime);
         Destroy(gameObject);
+
+        AudioManager.Instance.PlaySfx(sfxData.powerUpPickSounds);
     }
 }

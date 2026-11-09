@@ -3,6 +3,7 @@ using UnityEngine;
 public class PickableHealth : Pickables
 {
     [SerializeField] private PickablesDataSo data;
+    [SerializeField] private SoundEffectsDataSo sfxData;
     private float healthToAdd = 0f;
 
     private void Start()
@@ -14,5 +15,7 @@ public class PickableHealth : Pickables
     {
         GameManager.Instance.AddPlayerHealth(healthToAdd);
         Destroy(gameObject);
+
+        AudioManager.Instance.PlaySfx(sfxData.powerUpPickSounds);
     }
 }

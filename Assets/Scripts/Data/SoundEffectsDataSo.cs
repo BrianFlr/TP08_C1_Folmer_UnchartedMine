@@ -21,7 +21,11 @@ public class SoundEffectsDataSo : ScriptableObject
     public AudioClip[] dynamiteLiteSound;
     public AudioClip[] dynamiteExplosionSound;
 
-    [Header("Pickables Sfx")]
-    public AudioClip[] spawnSounds;
-    public AudioClip[] pickSounds;
+    [Header("Mineral Sfx")]
+    public AudioClip[] mineralSpawnSounds;
+    public AudioClip[] mineralPickSounds;
+
+    [Header("Power Ups Sfx")]
+    public AudioClip[] powerUpSpawnSounds;
+    public AudioClip[] powerUpPickSounds;
 }

@@ -12,7 +12,7 @@ public class PickableRedMineral : Pickables
         rb.AddForce(Vector2.up * data.spawnImpulseForce, ForceMode2D.Impulse);
         pointsToAdd = data.pointsToAddVeryRare;
 
-        AudioManager.Instance.PlaySfx(sfxData.spawnSounds);
+        AudioManager.Instance.PlaySfx(sfxData.mineralSpawnSounds);
     }
 
     public override void Pick()
@@ -20,6 +20,6 @@ public class PickableRedMineral : Pickables
         GameManager.Instance.AddPlayerPoints(pointsToAdd);
         Destroy(gameObject);
 
-        AudioManager.Instance.PlaySfx(sfxData.pickSounds);
+        AudioManager.Instance.PlaySfx(sfxData.mineralPickSounds);
     }
 }

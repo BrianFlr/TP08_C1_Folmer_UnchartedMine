@@ -12,8 +12,8 @@ public class PurpleNodeHealth : MiningNodeHealth
     private SpriteRenderer srNode;
 
     private float statesQuantity = 0f;
-    [SerializeField] private float health = 0f;
-    [SerializeField] private float equivalentHealth = 0f;
+    private float health = 0f;
+    private float equivalentHealth = 0f;
 
     private void Awake()
     {
