@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8484772e2350d6a438d7f4d03482042a, type: 3}
   m_Name: EnemiesData
   m_EditorClassIdentifier: Assembly-CSharp::EnemiesDataSo
-  blueGolemHealth: 30
-  blueGolemSpeed: 2
+  blueGolemHealth: 15
+  blueGolemSpeed: 1
   blueGolemDamage: 10
   orangeGolemHealth: 30
   orangeGolemSpeed: 2
-  orangeGolemDamage: 25
+  orangeGolemDamage: 20
   orangeGolemAggroRange: 5

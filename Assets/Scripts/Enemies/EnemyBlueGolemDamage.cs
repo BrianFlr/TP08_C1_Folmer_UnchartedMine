@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class EnemyOrangeGolemDamage : MonoBehaviour
+public class EnemyBlueGolemDamage : MonoBehaviour
 {
-    [SerializeField] EnemiesDataSo orangeGolemData;
+    [SerializeField] EnemiesDataSo data;
 
     private float damage = 0f;
 
     private void Start()
     {
-        damage = orangeGolemData.orangeGolemDamage;
+        damage = data.blueGolemDamage;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

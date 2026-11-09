@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyPickableDrop : MonoBehaviour
 {
-    private EnemyHealthOrangeGolem enemyOrangeGolemHealth;
+    private EnemyHealthBlueGolem enemyHealthBlueGolem;
 
     [Header("Pickables Array")]
     [SerializeField] private GameObject[] pickables;
@@ -11,20 +11,19 @@ public class EnemyPickableDrop : MonoBehaviour
 
     private void Awake()
     {
-        enemyOrangeGolemHealth = GetComponent<EnemyHealthOrangeGolem>();
+        enemyHealthBlueGolem = GetComponent<EnemyHealthBlueGolem>();
 
-        if(enemyOrangeGolemHealth != null)
+        if(enemyHealthBlueGolem != null)
         {
-            enemyOrangeGolemHealth.onOrangeGolemDie += SpawnPickable;
+            enemyHealthBlueGolem.onBlueGolemDie += SpawnPickable;
         }
     }
 
     private void OnDestroy()
     {
-
-        if (enemyOrangeGolemHealth != null)
+        if (enemyHealthBlueGolem != null)
         {
-            enemyOrangeGolemHealth.onOrangeGolemDie -= SpawnPickable;
+            enemyHealthBlueGolem.onBlueGolemDie -= SpawnPickable;
         }
     }
 
