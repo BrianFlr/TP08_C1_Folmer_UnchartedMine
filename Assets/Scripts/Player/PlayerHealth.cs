@@ -6,10 +6,11 @@ public class PlayerHealth : MonoBehaviour
     public event Action onPlayerHealthChange;
 
     [SerializeField] private PlayerDataSo playerData;
+    [SerializeField] private SoundEffectsDataSo sfxData;
     private PlayerImmortality playerImmortality;
 
-    [SerializeField] private float maxHealth = 0f;
-    [SerializeField] private float health = 0f;
+    private float maxHealth = 0f;
+    private float health = 0f;
     private float invulnerabilityTime = 0f;
 
     private void Awake()
@@ -41,6 +42,8 @@ public class PlayerHealth : MonoBehaviour
         playerImmortality.ActivateImmortality(invulnerabilityTime);
 
         onPlayerHealthChange?.Invoke();
+
+        DieSound();
     }
 
     public float GetHealthValue()
@@ -51,5 +54,13 @@ public class PlayerHealth : MonoBehaviour
     public float GetMaxHealthValue()
     {
         return maxHealth;
+    }
+
+    private void DieSound()
+    {
+        if (health <= 0)
+        {
+            AudioManager.Instance.PlaySfx(sfxData.playerDieSounds);
+        }
     }
 }

@@ -46128,8 +46128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   playerData: {fileID: 11400000, guid: 1401d0865d948dd4e917386c36f85f4d, type: 2}
-  maxHealth: 0
-  health: 0
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
 --- !u!114 &1303377110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47523,37 +47522,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3640926398321223703, guid: 16c05708a0fe9d24eaf9b9eaac3c429c, type: 3}
   m_PrefabInstance: {fileID: 1320615904}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1534064133
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1534064134}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1534064134
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534064133}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 233.2603, y: 135.21548, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1541815272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5045516669341371230, guid: e7365019c6dce674d9e12a702f1f9db5, type: 3}
@@ -68824,7 +68792,6 @@ SceneRoots:
   - {fileID: 1825571979}
   - {fileID: 900951254}
   - {fileID: 2072107777}
-  - {fileID: 1534064134}
   - {fileID: 1449171624}
   - {fileID: 1052620765}
   - {fileID: 1030728599}

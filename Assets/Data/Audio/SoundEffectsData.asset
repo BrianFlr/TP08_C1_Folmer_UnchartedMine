@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 470a3b90ed8bab7408f2018b4708ac63, type: 3}
   m_Name: SoundEffectsData
   m_EditorClassIdentifier: Assembly-CSharp::SoundEffectsDataSo
-  playerWalkSounds: []
+  playerWalkSounds:
+  - {fileID: 8300000, guid: 1181f9a0f85c56849a59fdc570a3c961, type: 3}
+  - {fileID: 8300000, guid: 0e238fa036f40a64db2cf315cee9449c, type: 3}
+  - {fileID: 8300000, guid: 481c0a0bd1027fb40a6d04afd07e4e72, type: 3}
+  - {fileID: 8300000, guid: 81fdca5dd9cacd04cb04dea0d072338b, type: 3}
+  - {fileID: 8300000, guid: d784dc2e60b592b468ffef81da634114, type: 3}
+  - {fileID: 8300000, guid: 20efc8fb00ee9af4eb6910b4dc1bd2d1, type: 3}
+  - {fileID: 8300000, guid: b9d4bffc758196d44b1bd59c1cc34da7, type: 3}
+  - {fileID: 8300000, guid: 1f3b32da4400a0641bef2104f9bf3435, type: 3}
   playerJumpSounds:
   - {fileID: 8300000, guid: c620d9f9c4a9542498bafee3cbb4373d, type: 3}
   - {fileID: 8300000, guid: d7755a9ee0ff28a4ebe686f9d0c585e7, type: 3}

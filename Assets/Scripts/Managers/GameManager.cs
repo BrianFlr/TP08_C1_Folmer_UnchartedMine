@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -53,8 +54,14 @@ public class GameManager : MonoBehaviour
         {
             playerPoints.SaveMaxScorePrefs();
 
-            onGameOver?.Invoke();
+            StartCoroutine(GameOverTimer());
         }
+    }
+
+    private IEnumerator GameOverTimer()
+    {
+        yield return new WaitForSeconds(1f);
+        onGameOver?.Invoke();
     }
 
     public void ResetGameState()

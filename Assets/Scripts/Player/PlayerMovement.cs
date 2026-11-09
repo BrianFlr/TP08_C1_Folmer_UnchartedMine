@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -143,5 +144,4 @@ public class PlayerMovement : MonoBehaviour
     {
         return isGround;
     }
-
 }
