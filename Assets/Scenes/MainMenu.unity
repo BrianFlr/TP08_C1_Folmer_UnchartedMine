@@ -1064,7 +1064,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 7067846518788263788, guid: d14851464da1f8a4d8eaa871543f1e2a, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1161,7 +1161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655306dee6332e341921dfc8404ec537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  backgroundAudioSource: {fileID: 525855465}
+  musicData: {fileID: 11400000, guid: 06bad2d06d68bb8409a23a105dd59bbb, type: 2}
+  sfxData: {fileID: 11400000, guid: 1b4c61dd2bf3711428e51d628893b98a, type: 2}
+  uiData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
+  musicAudioSource: {fileID: 525855465}
   sfxAudioSource: {fileID: 525855464}
   uiAudioSource: {fileID: 525855463}
 --- !u!1 &616709434
@@ -2461,6 +2464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ee1eaabc1dea747acb83e2fed79661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiMainMenu
+  soundData: {fileID: 11400000, guid: a4189e1d9ef54f140a5a6fbc38ff6d6b, type: 2}
   mainMenuCanvas: {fileID: 616709434}
   settingsCanvas: {fileID: 6624879214521757218}
   creditsCanvas: {fileID: 224758740}

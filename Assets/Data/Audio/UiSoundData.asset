@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebe2c15ddde85148be552ba6b1d3df9, type: 3}
   m_Name: UiSoundData
   m_EditorClassIdentifier: Assembly-CSharp::UiSoundDataSo
-  buttonSounds: []
+  buttonSounds:
+  - {fileID: 8300000, guid: 093829f0f824f974db25d5d32b763d8a, type: 3}

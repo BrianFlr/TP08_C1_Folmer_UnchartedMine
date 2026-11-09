@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class UiMainMenu : MonoBehaviour
 {
+    [Header("Sound Data")]
+    [SerializeField] private UiSoundDataSo soundData; 
+
     [Header("Canvas")]
     [SerializeField] private GameObject mainMenuCanvas;
     [SerializeField] private GameObject settingsCanvas;
@@ -41,6 +44,7 @@ public class UiMainMenu : MonoBehaviour
     // Eventos de botones
     private void OnStartClicked()
     {
+        AudioManager.Instance.PlayUi(soundData);
 
         // Cargo la escena de juego
         SceneManager.LoadScene("Gameplay");
@@ -48,6 +52,7 @@ public class UiMainMenu : MonoBehaviour
 
     private void OnSettingsClicked()
     {
+        AudioManager.Instance.PlayUi(soundData);
 
         // Activo el canvas settings
         settingsCanvas.SetActive(true);
@@ -55,6 +60,7 @@ public class UiMainMenu : MonoBehaviour
 
     private void OnCreditsClicked()
     {
+        AudioManager.Instance.PlayUi(soundData);
 
         // Activo el canvas credits
         creditsCanvas.SetActive(true);
@@ -62,6 +68,7 @@ public class UiMainMenu : MonoBehaviour
 
     private void OnExitClicked()
     {
+        AudioManager.Instance.PlayUi(soundData);
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
