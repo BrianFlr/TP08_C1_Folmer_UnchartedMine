@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6120297037854764679}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1597110846348186219}
   - component: {fileID: 6941909290494753256}
   - component: {fileID: 909172613678730974}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RedMineral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 9014591088800651943}
   - component: {fileID: 5285147239449996021}
   - component: {fileID: 4516651842657563643}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: VisualRedMineral
   m_TagString: Untagged
   m_Icon: {fileID: 0}

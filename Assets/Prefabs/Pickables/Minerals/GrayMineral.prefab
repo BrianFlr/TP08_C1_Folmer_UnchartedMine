@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8246972185164287760}
   - component: {fileID: 331058928940238403}
   - component: {fileID: 7539052811108179101}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: VisualGrayMineral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 734924429925674503}
   - component: {fileID: 7213414806247485930}
   - component: {fileID: 6524797828437670286}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GrayMineral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4281947671790100050}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
