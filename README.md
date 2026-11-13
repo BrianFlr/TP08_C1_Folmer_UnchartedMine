@@ -1,5 +1,5 @@
 
-# Cursed Graveyard
+# Uncharted Mine
 
 Hola!
 Este es mi cuarto juego desarrollado en Unity. Es del género "Platformer".
